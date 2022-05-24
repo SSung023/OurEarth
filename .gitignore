@@ -1,6 +1,10 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# ignore folders
+Intermediate/
+Saved/
+
 # log 
 Logs/
 *.log
