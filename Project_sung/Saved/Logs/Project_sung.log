@@ -1917,3 +1917,620 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.27-14.23.55:671][964]LogPlayLevel: Display: Destroying online subsystem :Context_18
 [2022.05.27-14.26.46:407][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
 [2022.05.27-14.26.46:409][244]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/GraphicTestMaps/graphicTest' took 0.016
+[2022.05.27-14.36.46:981][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.05.27-14.36.46:984][ 50]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/GraphicTestMaps/graphicTest' took 0.016
+[2022.05.27-14.46.47:542][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.05.27-14.46.47:544][231]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/GraphicTestMaps/graphicTest' took 0.012
+[2022.05.27-14.56.54:581][164]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.05.27-14.56.54:584][164]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/GraphicTestMaps/graphicTest' took 0.015
+[2022.05.27-14.57.01:164][490]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.27-14.57.01:180][490]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.27-14.57.04:773][819]LogContentBrowser: Attempting asset rename: NewFolder -> path
+[2022.05.27-14.57.04:774][819]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.27-14.57.31:270][398]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/우쓰/OneDrive - SangMyung University/바탕 화면/sohee/voxel/my earth/export/back_hole.obj)
+[2022.05.27-14.57.31:372][398]LogFbx: Loading FBX Scene from C:/Users/우쓰/OneDrive - SangMyung University/바탕 화면/sohee/voxel/my earth/export/back_hole.obj
+[2022.05.27-14.57.31:400][398]LogFbx: FBX Scene Loaded Succesfully
+[2022.05.27-14.57.37:156][398]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.05.27-14.57.37:222][398]LogTexture: Display: Building textures: back_hole1 (BGRA8, 256X1)
+[2022.05.27-14.57.37:226][398]LogMaterial: Display: Missing cached shadermap for palette in PCD3D_SM5, Default, SM5 (DDC key hash: FEC930026D35BABED0B2B2FF91DE346A586C62B6), compiling. 
+[2022.05.27-14.57.37:265][398]LogStaticMesh: Building static mesh back_hole...
+[2022.05.27-14.57.37:286][398]LogStaticMesh: Built static mesh [0.02s] /Game/Voxels/path/back_hole.back_hole
+[2022.05.27-14.57.37:289][398]LogStaticMesh: Warning: back_hole has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.05.27-14.57.37:289][398]LogStaticMesh: Warning: back_hole has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.05.27-14.57.37:338][398]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.05.27-14.57.37:338][398]FBXImport: Warning: back_hole has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.05.27-14.57.37:338][398]FBXImport: Warning: back_hole has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.05.27-14.57.37:427][398]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/우쓰/OneDrive - SangMyung University/바탕 화면/sohee/voxel/my earth/export/back_hole.png)
+[2022.05.27-14.57.37:436][398]LogTexture: Display: Building textures: back_hole_0 (BGRA8, 256X1)
+[2022.05.27-14.57.37:576][403]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.05.27-14.57.37:576][403]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.05.27-14.57.37:576][403]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2022.05.27-14.57.37:576][403]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.27-14.57.37:597][403]LogShaderCompilers: Display: Submitted 20 shader compile jobs with 'Normal' priority
+[2022.05.27-14.57.37:615][403]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2022.05.27-14.57.37:615][403]LogShaderCompilers: Display: Started 7 'Local' shader compile jobs with 'Normal' priority
+[2022.05.27-14.57.39:110][511]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2022.05.27-14.57.39:110][511]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.05.27-14.57.39:112][511]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.27-14.57.39:112][511]LogShaderCompilers: Display: Total job queries 792, among them cache hits 95 (11.99%)
+[2022.05.27-14.57.39:112][511]LogShaderCompilers: Display: Tracking 375 distinct input hashes that result in 160 distinct outputs (42.67%)
+[2022.05.27-14.57.39:112][511]LogShaderCompilers: Display: RAM used: 1.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2022.05.27-14.57.39:112][511]LogShaderCompilers: Display: ================================================
+[2022.05.27-14.57.39:971][580]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2022.05.27-14.57.39:971][580]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.05.27-14.57.40:282][607]LogSlate: Window 'Message Log' being destroyed
+[2022.05.27-14.57.40:288][607]LogSlate: Window 'Message Log' being destroyed
+[2022.05.27-14.57.44:266][842]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2022.05.27-14.57.44:266][842]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.27-14.57.45:433][910]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2022.05.27-14.57.45:433][910]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.27-14.57.46:545][974]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2022.05.27-14.57.46:546][974]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.27-14.57.51:639][313]LogActorFactory: Actor Factory created back_hole
+[2022.05.27-14.57.52:958][426]LogActorFactory: Actor Factory created back_hole
+[2022.05.27-14.58.01:563][163]Cmd: TRANSACTION UNDO
+[2022.05.27-14.58.01:563][163]LogEditorTransaction: Undo Create Actors
+[2022.05.27-14.58.02:690][210]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Voxels/path/back_hole.back_hole
+[2022.05.27-14.58.30:260][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Voxels/path/back_hole" FILE="../../../../OurEarth/Project_sung/Content/Voxels/path/back_hole.uasset" SILENT=true
+[2022.05.27-14.58.30:273][901]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/back_hole2EE5FF7642105429281FAE9E6705F5F5.tmp' to '../../../../OurEarth/Project_sung/Content/Voxels/path/back_hole.uasset'
+[2022.05.27-14.58.30:295][901]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.27-14.58.30:295][901]LogContentValidation: Display: Validating Texture2D /Game/Voxels/path/back_hole.back_hole_0
+[2022.05.27-14.58.30:295][901]LogContentValidation: Display: Validating StaticMesh /Game/Voxels/path/back_hole.back_hole
+[2022.05.27-14.58.34:058][120]LogActorFactory: Actor Factory created back_hole
+[2022.05.27-14.58.34:764][177]LogActorFactory: Actor Factory created back_hole
+[2022.05.27-14.58.35:640][230]Cmd: TRANSACTION UNDO
+[2022.05.27-14.58.35:640][230]LogEditorTransaction: Undo Create Actors
+[2022.05.27-14.58.40:352][411]LogEditorFactories: Performing atomic reimport of [C:/Users/우쓰/OneDrive - SangMyung University/바탕 화면/sohee/voxel/my earth/export/back_hole.obj]
+[2022.05.27-14.58.40:392][411]LogFbx: Loading FBX Scene from C:/Users/우쓰/OneDrive - SangMyung University/바탕 화면/sohee/voxel/my earth/export/back_hole.obj
+[2022.05.27-14.58.40:406][411]LogFbx: FBX Scene Loaded Succesfully
+[2022.05.27-14.58.40:491][411]LogStaticMesh: Building static mesh back_hole...
+[2022.05.27-14.58.40:499][411]LogStaticMesh: Built static mesh [0.01s] /Game/Voxels/path/back_hole.back_hole
+[2022.05.27-14.58.40:501][411]LogStaticMesh: Warning: back_hole has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.05.27-14.58.40:501][411]LogStaticMesh: Warning: back_hole has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.05.27-14.58.40:525][411]LogEditorFactories: -- imported successfully
+[2022.05.27-14.58.40:529][411]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.05.27-14.58.40:529][411]FBXImport: Warning: back_hole has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.05.27-14.58.40:529][411]FBXImport: Warning: back_hole has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.05.27-14.58.48:338][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Voxels/path/back_hole" FILE="../../../../OurEarth/Project_sung/Content/Voxels/path/back_hole.uasset" SILENT=true
+[2022.05.27-14.58.48:350][819]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/back_holeADB457A14A3CC23F47C895924CDE5023.tmp' to '../../../../OurEarth/Project_sung/Content/Voxels/path/back_hole.uasset'
+[2022.05.27-14.58.48:369][819]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.27-14.58.48:369][819]LogContentValidation: Display: Validating Texture2D /Game/Voxels/path/back_hole.back_hole_0
+[2022.05.27-14.58.48:369][819]LogContentValidation: Display: Validating StaticMesh /Game/Voxels/path/back_hole.back_hole
+[2022.05.27-14.58.59:600][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Voxels/path/back_hole" FILE="../../../../OurEarth/Project_sung/Content/Voxels/path/back_hole.uasset" SILENT=true
+[2022.05.27-14.58.59:611][502]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/back_hole51C1A58342B2C2D4017BF1844D613B10.tmp' to '../../../../OurEarth/Project_sung/Content/Voxels/path/back_hole.uasset'
+[2022.05.27-14.58.59:629][502]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.27-14.58.59:629][502]LogContentValidation: Display: Validating Texture2D /Game/Voxels/path/back_hole.back_hole_0
+[2022.05.27-14.58.59:629][502]LogContentValidation: Display: Validating StaticMesh /Game/Voxels/path/back_hole.back_hole
+[2022.05.27-14.59.01:107][593]LogSlate: Window 'back_hole' being destroyed
+[2022.05.27-14.59.01:114][593]LogSlate: Window 'back_hole' being destroyed
+[2022.05.27-14.59.01:120][593]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.05.27-14.59.01:120][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-14.59.04:711][932]LogEditorFactories: Performing atomic reimport of [C:/Users/우쓰/OneDrive - SangMyung University/바탕 화면/sohee/voxel/my earth/export/back_hole.obj]
+[2022.05.27-14.59.04:753][932]LogFbx: Loading FBX Scene from C:/Users/우쓰/OneDrive - SangMyung University/바탕 화면/sohee/voxel/my earth/export/back_hole.obj
+[2022.05.27-14.59.04:766][932]LogFbx: FBX Scene Loaded Succesfully
+[2022.05.27-14.59.04:821][932]LogStaticMesh: Building static mesh back_hole...
+[2022.05.27-14.59.04:829][932]LogStaticMesh: Built static mesh [0.01s] /Game/Voxels/path/back_hole.back_hole
+[2022.05.27-14.59.04:831][932]LogStaticMesh: Warning: back_hole has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.05.27-14.59.04:832][932]LogStaticMesh: Warning: back_hole has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.05.27-14.59.04:842][932]LogEditorFactories: -- imported successfully
+[2022.05.27-14.59.04:845][932]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.05.27-14.59.04:846][932]FBXImport: Warning: back_hole has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.05.27-14.59.04:846][932]FBXImport: Warning: back_hole has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.05.27-14.59.05:954][980]LogActorFactory: Actor Factory created back_hole
+[2022.05.27-14.59.07:345][103]LogActorFactory: Actor Factory created back_hole
+[2022.05.27-14.59.55:950][302]Cmd: TRANSACTION UNDO
+[2022.05.27-14.59.55:950][302]LogEditorTransaction: Undo Move Actors
+[2022.05.27-15.00.07:957][268]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (back_hole)
+[2022.05.27-15.00.12:409][739]Cmd: ACTOR BAKEPREPIVOT
+[2022.05.27-15.00.18:517][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ice00_sm3)
+[2022.05.27-15.00.19:709][331]Cmd: EDIT COPY
+[2022.05.27-15.00.19:948][352]Cmd: EDIT PASTE
+[2022.05.27-15.00.23:739][681]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.27-15.00.34:525][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ice00_sm21)
+[2022.05.27-15.00.35:723][649]Cmd: EDIT COPY
+[2022.05.27-15.00.35:987][672]Cmd: EDIT PASTE
+[2022.05.27-15.00.44:731][379]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.27-15.00.53:635][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (back_hole)
+[2022.05.27-15.01.18:380][396]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.27-15.01.21:229][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (back_hole)
+[2022.05.27-15.05.47:875][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (back_hole)
+[2022.05.27-15.05.48:693][870]Cmd: DELETE
+[2022.05.27-15.05.48:700][870]Cmd: ACTOR DELETE
+[2022.05.27-15.05.48:727][870]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.05.27-15.05.48:742][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.05.27-15.05.48:751][870]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2022.05.27-15.05.53:825][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.05.27-15.05.54:744][333]LogSlate: Window 'Delete Assets' being destroyed
+[2022.05.27-15.05.54:761][333]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/Voxels/path/palette.palette
+	Asset Name: /Game/Voxels/path/back_hole.back_hole
+	Asset Name: /Game/Voxels/path/back_hole.back_hole_0
+	Asset Name: /Game/Voxels/path/back_hole1.back_hole1
+[2022.05.27-15.05.55:011][333]LogMaterial: Display: Missing cached shadermap for palette in PCD3D_SM5, Default, SM5 (DDC key hash: 244090EE4F802403BF41B50F398CDA1C73A18D88), compiling. 
+[2022.05.27-15.05.55:011][333]LogMaterial: Warning: [AssetLog] /Game/Voxels/path/palette.palette (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.05.27-15.05.55:011][333]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2022.05.27-15.05.55:013][333]LogMaterial: Display: Missing cached shadermap for palette in PCD3D_SM5, Default, SM5 (DDC key hash: 244090EE4F802403BF41B50F398CDA1C73A18D88), compiling. 
+[2022.05.27-15.05.55:013][333]LogMaterial: Warning: [AssetLog] /Game/Voxels/path/palette.palette (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.05.27-15.05.55:013][333]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2022.05.27-15.05.55:081][333]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2022.05.27-15.05.55:328][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2022.05.27-15.05.55:338][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.05.27-15.05.55:346][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.05.27-15.06.03:783][752]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/우쓰/OneDrive - SangMyung University/바탕 화면/sohee/voxel/my earth/export/back_hole2.obj)
+[2022.05.27-15.06.03:791][752]LogFbx: Loading FBX Scene from C:/Users/우쓰/OneDrive - SangMyung University/바탕 화면/sohee/voxel/my earth/export/back_hole2.obj
+[2022.05.27-15.06.03:805][752]LogFbx: FBX Scene Loaded Succesfully
+[2022.05.27-15.06.06:508][752]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.05.27-15.06.06:534][752]LogTexture: Display: Building textures: back_hole3 (BGRA8, 256X1)
+[2022.05.27-15.06.06:537][752]LogMaterial: Display: Missing cached shadermap for palette in PCD3D_SM5, Default, SM5 (DDC key hash: FECC1EAA127DD0D3BFF46E4E0241DF64BCE55BC7), compiling. 
+[2022.05.27-15.06.06:543][752]LogStaticMesh: Building static mesh back_hole2...
+[2022.05.27-15.06.06:551][752]LogStaticMesh: Built static mesh [0.01s] /Game/Voxels/path/back_hole2.back_hole2
+[2022.05.27-15.06.06:553][752]LogStaticMesh: Warning: back_hole2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.05.27-15.06.06:553][752]LogStaticMesh: Warning: back_hole2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.05.27-15.06.06:562][752]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.05.27-15.06.06:562][752]FBXImport: Warning: back_hole2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.05.27-15.06.06:562][752]FBXImport: Warning: back_hole2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.05.27-15.06.06:628][752]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/우쓰/OneDrive - SangMyung University/바탕 화면/sohee/voxel/my earth/export/back_hole2.png)
+[2022.05.27-15.06.06:630][752]LogTexture: Display: Building textures: back_hole2_0 (BGRA8, 256X1)
+[2022.05.27-15.06.06:716][753]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.27-15.06.06:716][753]LogShaderCompilers: Display: Total job queries 822, among them cache hits 125 (15.21%)
+[2022.05.27-15.06.06:716][753]LogShaderCompilers: Display: Tracking 396 distinct input hashes that result in 176 distinct outputs (44.44%)
+[2022.05.27-15.06.06:717][753]LogShaderCompilers: Display: RAM used: 1.12 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.14%
+[2022.05.27-15.06.06:717][753]LogShaderCompilers: Display: ================================================
+[2022.05.27-15.06.08:108][879]LogSlate: Window 'Message Log' being destroyed
+[2022.05.27-15.06.08:113][879]LogSlate: Window 'Message Log' being destroyed
+[2022.05.27-15.06.11:175][117]LogActorFactory: Actor Factory created back_hole2
+[2022.05.27-15.06.13:355][319]LogActorFactory: Actor Factory created back_hole2
+[2022.05.27-15.06.49:423][ 25]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (back_hole2)
+[2022.05.27-15.06.52:345][296]Cmd: ACTOR BAKEPREPIVOT
+[2022.05.27-15.07.15:927][408]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.27-15.07.25:404][177]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.27-15.07.25:416][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.27-15.07.25:416][177]PIE: New page: PIE session: graphicTest (2022. 5. 28. 오전 9:07:25)
+[2022.05.27-15.07.25:416][177]LogPlayLevel: Creating play world package: /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.07.25:422][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005102s)
+[2022.05.27-15.07.25:423][177]LogAIModule: Creating AISystem for world graphicTest
+[2022.05.27-15.07.25:423][177]LogPlayLevel: PIE: World Init took: (0.001156s)
+[2022.05.27-15.07.25:423][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GraphicTestMaps/graphicTest.graphicTest to /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest (0.006390s)
+[2022.05.27-15.07.25:438][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.05.27-15.07.25:442][177]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.05.27-15.07.25:443][177]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.27-15.07.25:443][177]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.27-15.07.25:443][177]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.27-15.07.25:443][177]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.27-15.07.25:443][177]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.27-15.07.25:443][177]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.27-15.07.25:443][177]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.27-15.07.25:443][177]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.27-15.07.25:443][177]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.27-15.07.25:443][177]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.27-15.07.25:443][177]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.27-15.07.25:443][177]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.27-15.07.25:560][177]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.27-15.07.25:560][177]LogAudioMixer: Display: 1: FrontRight
+[2022.05.27-15.07.25:635][177]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.27-15.07.25:635][177]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.27-15.07.25:635][177]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.27-15.07.25:635][177]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.27-15.07.25:636][177]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.27-15.07.25:636][177]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.27-15.07.25:636][177]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.27-15.07.25:637][177]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.27-15.07.25:637][177]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.27-15.07.25:637][177]LogInit: FAudioDevice initialized.
+[2022.05.27-15.07.25:637][177]LogAudio: Display: Audio Device (ID: 3) registered with world 'graphicTest'.
+[2022.05.27-15.07.25:699][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.07.25:699][177]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.27-15.07.25:701][177]LogWorld: Bringing World /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest up for play (max tick rate 0) at 2022.05.28-00.07.25
+[2022.05.27-15.07.25:702][177]LogWorld: Bringing up level for play took: 0.002032
+[2022.05.27-15.07.25:702][177]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.05.27-15.07.25:708][177]PIE: Server logged in
+[2022.05.27-15.07.25:710][177]PIE: Play in editor total start time 0.3 seconds.
+[2022.05.27-15.07.29:815][453]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.27-15.07.31:211][553]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.27-15.07.31:684][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.07.31:685][583]LogWorld: BeginTearingDown for /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.07.31:686][583]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.27-15.07.31:700][583]LogWorld: UWorld::CleanupWorld for graphicTest, bSessionEnded=true, bCleanupResources=true
+[2022.05.27-15.07.31:700][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.07.31:714][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.27-15.07.31:723][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.07.31:732][583]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.27-15.07.31:732][583]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.07.31:734][583]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.07.31:753][583]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.05.27-15.07.31:784][584]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.05.27-15.07.37:045][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ice00_sm22)
+[2022.05.27-15.07.41:023][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ice00_sm3)
+[2022.05.27-15.07.43:317][653]Cmd: EDIT COPY
+[2022.05.27-15.07.43:654][685]Cmd: EDIT PASTE
+[2022.05.27-15.08.16:381][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ice00_sm27)
+[2022.05.27-15.08.22:634][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ice00_sm27)
+[2022.05.27-15.08.23:276][168]Cmd: EDIT COPY
+[2022.05.27-15.08.23:610][199]Cmd: EDIT PASTE
+[2022.05.27-15.08.28:100][608]Cmd: EDIT COPY
+[2022.05.27-15.08.28:317][627]Cmd: EDIT PASTE
+[2022.05.27-15.08.36:807][322]Cmd: EDIT COPY
+[2022.05.27-15.08.37:039][341]Cmd: EDIT PASTE
+[2022.05.27-15.08.39:343][534]Cmd: TRANSACTION UNDO
+[2022.05.27-15.08.39:343][534]LogEditorTransaction: Undo Move Actors
+[2022.05.27-15.08.41:805][714]Cmd: TRANSACTION UNDO
+[2022.05.27-15.08.41:805][714]LogEditorTransaction: Undo Move Actors
+[2022.05.27-15.08.44:652][949]Cmd: TRANSACTION UNDO
+[2022.05.27-15.08.44:652][949]LogEditorTransaction: Undo Move Actors
+[2022.05.27-15.08.46:601][130]Cmd: TRANSACTION UNDO
+[2022.05.27-15.08.46:601][130]LogEditorTransaction: Undo Move Actors
+[2022.05.27-15.08.48:849][360]Cmd: TRANSACTION UNDO
+[2022.05.27-15.08.48:849][360]LogEditorTransaction: Undo Move Actors
+[2022.05.27-15.08.56:892][ 85]Cmd: EDIT COPY
+[2022.05.27-15.08.57:086][102]Cmd: EDIT PASTE
+[2022.05.27-15.08.59:381][296]Cmd: EDIT COPY
+[2022.05.27-15.08.59:570][310]Cmd: EDIT PASTE
+[2022.05.27-15.09.03:028][600]Cmd: EDIT COPY
+[2022.05.27-15.09.03:241][610]Cmd: EDIT PASTE
+[2022.05.27-15.09.06:893][968]Cmd: EDIT COPY
+[2022.05.27-15.09.07:052][984]Cmd: EDIT PASTE
+[2022.05.27-15.09.13:404][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ice00_sm53)
+[2022.05.27-15.09.17:026][792]Cmd: EDIT COPY
+[2022.05.27-15.09.17:407][822]Cmd: EDIT PASTE
+[2022.05.27-15.09.26:634][595]Cmd: EDIT COPY
+[2022.05.27-15.09.26:796][608]Cmd: EDIT PASTE
+[2022.05.27-15.09.29:582][878]Cmd: EDIT COPY
+[2022.05.27-15.09.29:758][894]Cmd: EDIT PASTE
+[2022.05.27-15.09.33:045][179]Cmd: EDIT COPY
+[2022.05.27-15.09.33:231][186]Cmd: EDIT PASTE
+[2022.05.27-15.09.36:246][425]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.27-15.09.36:259][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.27-15.09.36:259][425]PIE: New page: PIE session: graphicTest (2022. 5. 28. 오전 9:09:36)
+[2022.05.27-15.09.36:259][425]LogPlayLevel: Creating play world package: /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.09.36:270][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010902s)
+[2022.05.27-15.09.36:271][425]LogAIModule: Creating AISystem for world graphicTest
+[2022.05.27-15.09.36:271][425]LogPlayLevel: PIE: World Init took: (0.001265s)
+[2022.05.27-15.09.36:271][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GraphicTestMaps/graphicTest.graphicTest to /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest (0.012332s)
+[2022.05.27-15.09.36:293][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.05.27-15.09.36:297][425]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.05.27-15.09.36:298][425]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.27-15.09.36:298][425]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.27-15.09.36:298][425]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.27-15.09.36:298][425]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.27-15.09.36:298][425]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.27-15.09.36:298][425]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.27-15.09.36:298][425]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.27-15.09.36:298][425]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.27-15.09.36:298][425]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.27-15.09.36:298][425]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.27-15.09.36:298][425]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.27-15.09.36:298][425]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.27-15.09.36:421][425]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.27-15.09.36:421][425]LogAudioMixer: Display: 1: FrontRight
+[2022.05.27-15.09.36:501][425]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.27-15.09.36:501][425]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.27-15.09.36:501][425]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.27-15.09.36:501][425]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.27-15.09.36:501][425]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.27-15.09.36:502][425]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.27-15.09.36:502][425]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.27-15.09.36:503][425]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.27-15.09.36:503][425]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.27-15.09.36:503][425]LogInit: FAudioDevice initialized.
+[2022.05.27-15.09.36:503][425]LogAudio: Display: Audio Device (ID: 4) registered with world 'graphicTest'.
+[2022.05.27-15.09.36:563][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.09.36:563][425]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.27-15.09.36:567][425]LogWorld: Bringing World /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest up for play (max tick rate 0) at 2022.05.28-00.09.36
+[2022.05.27-15.09.36:568][425]LogWorld: Bringing up level for play took: 0.003884
+[2022.05.27-15.09.36:568][425]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.05.27-15.09.36:574][425]PIE: Server logged in
+[2022.05.27-15.09.36:575][425]PIE: Play in editor total start time 0.324 seconds.
+[2022.05.27-15.10.14:271][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.10.14:271][900]LogWorld: BeginTearingDown for /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.10.14:272][900]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.27-15.10.14:295][900]LogWorld: UWorld::CleanupWorld for graphicTest, bSessionEnded=true, bCleanupResources=true
+[2022.05.27-15.10.14:296][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.10.14:305][900]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.27-15.10.14:314][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.10.14:323][900]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.27-15.10.14:324][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.10.14:325][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.10.14:333][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2022.05.27-15.10.14:358][901]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.05.27-15.10.16:288][ 44]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.27-15.10.25:828][915]Cmd: DELETE
+[2022.05.27-15.10.25:828][915]Cmd: ACTOR DELETE
+[2022.05.27-15.10.25:835][915]LogEditorActor: Deleted Actor: BP_GoodSky_C
+[2022.05.27-15.10.25:835][915]LogEditorActor: Deleted Actor: BP_GoodSky_C
+[2022.05.27-15.10.25:836][915]LogEditorActor: Deleted Actor: BP_GoodSky_C
+[2022.05.27-15.10.25:836][915]LogEditorActor: Deleted Actor: BP_GoodSky_C
+[2022.05.27-15.10.25:846][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.05.27-15.10.25:848][915]LogEditorActor: Deleted 4 Actors (0.020 secs)
+[2022.05.27-15.10.28:693][152]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2022.05.27-15.10.30:118][241]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.27-15.10.30:494][266]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.27-15.10.31:036][308]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.27-15.10.31:570][350]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2022.05.27-15.10.32:192][401]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Steam_Lit)
+[2022.05.27-15.10.38:029][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ice00_sm56)
+[2022.05.27-15.10.42:700][245]Cmd: EDIT COPY
+[2022.05.27-15.10.42:892][262]Cmd: EDIT PASTE
+[2022.05.27-15.10.49:163][797]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.27-15.10.49:176][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.27-15.10.49:176][797]PIE: New page: PIE session: graphicTest (2022. 5. 28. 오전 9:10:49)
+[2022.05.27-15.10.49:176][797]LogPlayLevel: Creating play world package: /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.10.49:183][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007243s)
+[2022.05.27-15.10.49:184][797]LogAIModule: Creating AISystem for world graphicTest
+[2022.05.27-15.10.49:184][797]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2022.05.27-15.10.49:184][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GraphicTestMaps/graphicTest.graphicTest to /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest (0.008415s)
+[2022.05.27-15.10.49:194][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.05.27-15.10.49:197][797]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.05.27-15.10.49:198][797]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.27-15.10.49:198][797]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.27-15.10.49:198][797]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.27-15.10.49:198][797]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.27-15.10.49:198][797]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.27-15.10.49:198][797]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.27-15.10.49:198][797]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.27-15.10.49:198][797]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.27-15.10.49:198][797]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.27-15.10.49:198][797]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.27-15.10.49:198][797]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.27-15.10.49:198][797]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.27-15.10.49:310][797]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.27-15.10.49:311][797]LogAudioMixer: Display: 1: FrontRight
+[2022.05.27-15.10.49:386][797]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.27-15.10.49:386][797]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.27-15.10.49:386][797]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.27-15.10.49:386][797]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.27-15.10.49:387][797]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.27-15.10.49:387][797]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.27-15.10.49:387][797]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.27-15.10.49:388][797]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.27-15.10.49:388][797]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.27-15.10.49:388][797]LogInit: FAudioDevice initialized.
+[2022.05.27-15.10.49:388][797]LogAudio: Display: Audio Device (ID: 5) registered with world 'graphicTest'.
+[2022.05.27-15.10.49:449][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.10.49:449][797]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.27-15.10.49:452][797]LogWorld: Bringing World /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest up for play (max tick rate 0) at 2022.05.28-00.10.49
+[2022.05.27-15.10.49:453][797]LogWorld: Bringing up level for play took: 0.003577
+[2022.05.27-15.10.49:453][797]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2022.05.27-15.10.49:460][797]PIE: Server logged in
+[2022.05.27-15.10.49:462][797]PIE: Play in editor total start time 0.293 seconds.
+[2022.05.27-15.11.49:684][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.11.49:684][117]LogWorld: BeginTearingDown for /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.11.49:685][117]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.27-15.11.49:706][117]LogWorld: UWorld::CleanupWorld for graphicTest, bSessionEnded=true, bCleanupResources=true
+[2022.05.27-15.11.49:707][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.11.49:715][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.27-15.11.49:733][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.11.49:742][117]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.27-15.11.49:742][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.11.49:743][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.11.49:752][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2022.05.27-15.11.49:791][118]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.05.27-15.11.56:315][689]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.27-15.12.17:458][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ice00_sm62)
+[2022.05.27-15.12.18:760][643]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.05.27-15.12.22:318][ 14]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.05.27-15.12.25:699][357]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.05.27-15.12.26:475][438]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.27-15.12.26:488][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.27-15.12.26:488][438]PIE: New page: PIE session: graphicTest (2022. 5. 28. 오전 9:12:26)
+[2022.05.27-15.12.26:488][438]LogPlayLevel: Creating play world package: /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.12.26:495][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007130s)
+[2022.05.27-15.12.26:496][438]LogAIModule: Creating AISystem for world graphicTest
+[2022.05.27-15.12.26:496][438]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2022.05.27-15.12.26:496][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GraphicTestMaps/graphicTest.graphicTest to /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest (0.008301s)
+[2022.05.27-15.12.26:506][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.05.27-15.12.26:510][438]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.05.27-15.12.26:510][438]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.27-15.12.26:510][438]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.27-15.12.26:510][438]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.27-15.12.26:510][438]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.27-15.12.26:510][438]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.27-15.12.26:510][438]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.27-15.12.26:510][438]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.27-15.12.26:510][438]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.27-15.12.26:510][438]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.27-15.12.26:510][438]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.27-15.12.26:510][438]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.27-15.12.26:510][438]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.27-15.12.26:621][438]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.27-15.12.26:621][438]LogAudioMixer: Display: 1: FrontRight
+[2022.05.27-15.12.26:696][438]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.27-15.12.26:696][438]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.27-15.12.26:696][438]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.27-15.12.26:696][438]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.27-15.12.26:697][438]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.27-15.12.26:697][438]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.27-15.12.26:697][438]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.27-15.12.26:698][438]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.27-15.12.26:698][438]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.27-15.12.26:698][438]LogInit: FAudioDevice initialized.
+[2022.05.27-15.12.26:698][438]LogAudio: Display: Audio Device (ID: 6) registered with world 'graphicTest'.
+[2022.05.27-15.12.26:754][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.12.26:754][438]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.27-15.12.26:758][438]LogWorld: Bringing World /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest up for play (max tick rate 0) at 2022.05.28-00.12.26
+[2022.05.27-15.12.26:759][438]LogWorld: Bringing up level for play took: 0.003966
+[2022.05.27-15.12.26:759][438]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2022.05.27-15.12.26:765][438]PIE: Server logged in
+[2022.05.27-15.12.26:767][438]PIE: Play in editor total start time 0.286 seconds.
+[2022.05.27-15.12.40:735][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.12.40:735][407]LogWorld: BeginTearingDown for /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.12.40:736][407]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.27-15.12.40:752][407]LogWorld: UWorld::CleanupWorld for graphicTest, bSessionEnded=true, bCleanupResources=true
+[2022.05.27-15.12.40:753][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.12.40:762][407]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.27-15.12.40:776][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.12.40:786][407]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.12.40:787][407]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.12.40:793][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.05.27-15.12.40:825][408]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.05.27-15.12.45:996][924]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.05.27-15.12.47:066][ 30]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.27-15.12.47:078][ 30]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.27-15.12.47:078][ 30]PIE: New page: PIE session: graphicTest (2022. 5. 28. 오전 9:12:47)
+[2022.05.27-15.12.47:078][ 30]LogPlayLevel: Creating play world package: /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.12.47:086][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007131s)
+[2022.05.27-15.12.47:086][ 30]LogAIModule: Creating AISystem for world graphicTest
+[2022.05.27-15.12.47:087][ 30]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2022.05.27-15.12.47:087][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GraphicTestMaps/graphicTest.graphicTest to /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest (0.008287s)
+[2022.05.27-15.12.47:097][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.05.27-15.12.47:099][ 30]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.05.27-15.12.47:099][ 30]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.27-15.12.47:099][ 30]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.27-15.12.47:099][ 30]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.27-15.12.47:099][ 30]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.27-15.12.47:099][ 30]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.27-15.12.47:099][ 30]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.27-15.12.47:099][ 30]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.27-15.12.47:099][ 30]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.27-15.12.47:100][ 30]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.27-15.12.47:100][ 30]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.27-15.12.47:100][ 30]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.27-15.12.47:100][ 30]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.27-15.12.47:213][ 30]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.27-15.12.47:213][ 30]LogAudioMixer: Display: 1: FrontRight
+[2022.05.27-15.12.47:288][ 30]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.27-15.12.47:288][ 30]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.27-15.12.47:288][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.27-15.12.47:288][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.27-15.12.47:288][ 30]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.27-15.12.47:288][ 30]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.27-15.12.47:289][ 30]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.27-15.12.47:290][ 30]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.27-15.12.47:290][ 30]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.27-15.12.47:290][ 30]LogInit: FAudioDevice initialized.
+[2022.05.27-15.12.47:290][ 30]LogAudio: Display: Audio Device (ID: 7) registered with world 'graphicTest'.
+[2022.05.27-15.12.47:350][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.12.47:350][ 30]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.27-15.12.47:353][ 30]LogWorld: Bringing World /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest up for play (max tick rate 0) at 2022.05.28-00.12.47
+[2022.05.27-15.12.47:354][ 30]LogWorld: Bringing up level for play took: 0.003590
+[2022.05.27-15.12.47:354][ 30]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2022.05.27-15.12.47:361][ 30]PIE: Server logged in
+[2022.05.27-15.12.47:362][ 30]PIE: Play in editor total start time 0.291 seconds.
+[2022.05.27-15.12.50:267][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.12.50:267][228]LogWorld: BeginTearingDown for /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.12.50:268][228]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.27-15.12.50:287][228]LogWorld: UWorld::CleanupWorld for graphicTest, bSessionEnded=true, bCleanupResources=true
+[2022.05.27-15.12.50:288][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.12.50:296][228]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.27-15.12.50:311][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.12.50:320][228]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.12.50:322][228]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.12.50:327][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2022.05.27-15.12.50:359][229]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.05.27-15.12.52:436][431]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.05.27-15.12.53:204][506]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.27-15.12.53:216][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.27-15.12.53:216][506]PIE: New page: PIE session: graphicTest (2022. 5. 28. 오전 9:12:53)
+[2022.05.27-15.12.53:216][506]LogPlayLevel: Creating play world package: /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.12.53:224][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007604s)
+[2022.05.27-15.12.53:225][506]LogAIModule: Creating AISystem for world graphicTest
+[2022.05.27-15.12.53:225][506]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2022.05.27-15.12.53:225][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GraphicTestMaps/graphicTest.graphicTest to /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest (0.008787s)
+[2022.05.27-15.12.53:234][506]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2022.05.27-15.12.53:236][506]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.05.27-15.12.53:236][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.27-15.12.53:236][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.27-15.12.53:236][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.27-15.12.53:236][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.27-15.12.53:236][506]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.27-15.12.53:236][506]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.27-15.12.53:236][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.27-15.12.53:236][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.27-15.12.53:236][506]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.27-15.12.53:236][506]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.27-15.12.53:236][506]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.27-15.12.53:236][506]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.27-15.12.53:349][506]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.27-15.12.53:349][506]LogAudioMixer: Display: 1: FrontRight
+[2022.05.27-15.12.53:424][506]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.27-15.12.53:424][506]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.27-15.12.53:424][506]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.27-15.12.53:424][506]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.27-15.12.53:425][506]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.27-15.12.53:425][506]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.27-15.12.53:425][506]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.27-15.12.53:426][506]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.27-15.12.53:426][506]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.27-15.12.53:426][506]LogInit: FAudioDevice initialized.
+[2022.05.27-15.12.53:426][506]LogAudio: Display: Audio Device (ID: 8) registered with world 'graphicTest'.
+[2022.05.27-15.12.53:487][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.12.53:487][506]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.27-15.12.53:491][506]LogWorld: Bringing World /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest up for play (max tick rate 0) at 2022.05.28-00.12.53
+[2022.05.27-15.12.53:492][506]LogWorld: Bringing up level for play took: 0.003811
+[2022.05.27-15.12.53:492][506]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2022.05.27-15.12.53:498][506]PIE: Server logged in
+[2022.05.27-15.12.53:500][506]PIE: Play in editor total start time 0.29 seconds.
+[2022.05.27-15.12.56:927][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.12.56:927][740]LogWorld: BeginTearingDown for /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.12.56:929][740]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.27-15.12.56:943][740]LogWorld: UWorld::CleanupWorld for graphicTest, bSessionEnded=true, bCleanupResources=true
+[2022.05.27-15.12.56:944][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.12.56:954][740]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.27-15.12.56:967][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.12.56:977][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.12.56:978][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.12.56:984][740]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.05.27-15.12.57:014][741]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.05.27-15.12.58:307][867]Cmd: TRANSACTION UNDO
+[2022.05.27-15.12.58:307][867]LogEditorTransaction: Undo Move Actors
+[2022.05.27-15.12.59:963][993]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2022.05.27-15.13.06:388][526]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.27-15.13.06:400][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.27-15.13.06:401][526]PIE: New page: PIE session: graphicTest (2022. 5. 28. 오전 9:13:06)
+[2022.05.27-15.13.06:401][526]LogPlayLevel: Creating play world package: /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.13.06:408][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007402s)
+[2022.05.27-15.13.06:409][526]LogAIModule: Creating AISystem for world graphicTest
+[2022.05.27-15.13.06:409][526]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2022.05.27-15.13.06:409][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GraphicTestMaps/graphicTest.graphicTest to /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest (0.008577s)
+[2022.05.27-15.13.06:419][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2022.05.27-15.13.06:421][526]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.05.27-15.13.06:421][526]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.27-15.13.06:421][526]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.27-15.13.06:421][526]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.27-15.13.06:421][526]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.27-15.13.06:421][526]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.27-15.13.06:421][526]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.27-15.13.06:421][526]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.27-15.13.06:421][526]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.27-15.13.06:421][526]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.27-15.13.06:421][526]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.27-15.13.06:421][526]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.27-15.13.06:421][526]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.27-15.13.06:533][526]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.27-15.13.06:533][526]LogAudioMixer: Display: 1: FrontRight
+[2022.05.27-15.13.06:608][526]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.27-15.13.06:608][526]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.27-15.13.06:608][526]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.27-15.13.06:608][526]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.27-15.13.06:608][526]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.27-15.13.06:608][526]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.27-15.13.06:608][526]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.27-15.13.06:610][526]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.27-15.13.06:610][526]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.27-15.13.06:610][526]LogInit: FAudioDevice initialized.
+[2022.05.27-15.13.06:610][526]LogAudio: Display: Audio Device (ID: 9) registered with world 'graphicTest'.
+[2022.05.27-15.13.06:664][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.13.06:664][526]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.27-15.13.06:668][526]LogWorld: Bringing World /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest.graphicTest up for play (max tick rate 0) at 2022.05.28-00.13.06
+[2022.05.27-15.13.06:668][526]LogWorld: Bringing up level for play took: 0.003739
+[2022.05.27-15.13.06:669][526]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2022.05.27-15.13.06:675][526]PIE: Server logged in
+[2022.05.27-15.13.06:676][526]PIE: Play in editor total start time 0.283 seconds.
+[2022.05.27-15.14.01:589][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.27-15.14.01:589][354]LogWorld: BeginTearingDown for /Game/Maps/GraphicTestMaps/UEDPIE_0_graphicTest
+[2022.05.27-15.14.01:590][354]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.27-15.14.01:614][354]LogWorld: UWorld::CleanupWorld for graphicTest, bSessionEnded=true, bCleanupResources=true
+[2022.05.27-15.14.01:615][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.14.01:622][354]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.27-15.14.01:643][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.27-15.14.01:652][354]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.14.01:654][354]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.27-15.14.01:661][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2022.05.27-15.14.01:690][355]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.05.27-15.14.08:455][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GraphicTestMaps/graphicTest" FILE="../../../../OurEarth/Project_sung/Content/Maps/GraphicTestMaps/graphicTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.27-15.14.08:465][901]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2022.05.27-15.14.08:536][901]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/graphicTestFA9D1B6D4110090E1346ED8A4FAFC542.tmp' to '../../../../OurEarth/Project_sung/Content/Maps/GraphicTestMaps/graphicTest.umap'
+[2022.05.27-15.14.08:548][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GraphicTestMaps/graphicTest_BuiltData" FILE="../../../../OurEarth/Project_sung/Content/Maps/GraphicTestMaps/graphicTest_BuiltData.uasset" SILENT=true
+[2022.05.27-15.14.08:553][901]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/graphicTest_BuiltData1288850244F6E39C990EAE9947E3FE48.tmp' to '../../../../OurEarth/Project_sung/Content/Maps/GraphicTestMaps/graphicTest_BuiltData.uasset'
+[2022.05.27-15.14.08:573][901]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.27-15.14.08:573][901]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/GraphicTestMaps/graphicTest_BuiltData.graphicTest_BuiltData
+[2022.05.27-15.14.08:573][901]LogContentValidation: Display: Validating World /Game/Maps/GraphicTestMaps/graphicTest.graphicTest
