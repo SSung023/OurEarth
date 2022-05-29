@@ -1331,3 +1331,299 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.29-10.49.06:849][866]LogSavePackage: Moving '../../../../2022 리아/MY earth project/OurEarth/Project_sung/Saved/Stage12C32FB364936800D6241B8B843CA85FB.tmp' to '../../../../2022 리아/MY earth project/OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap'
 [2022.05.29-10.49.06:867][866]AssetCheck: New page: 에셋 저장:  Stage1
 [2022.05.29-10.49.06:868][866]LogContentValidation: Display: World /Game/Maps/_Stages/Stage1/Stage1.Stage1 유효성 검사 중
+[2022.05.29-10.52.37:302][710]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.05.29-10.52.37:316][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-10.52.37:316][710]PIE: New page: PIE 세션: Stage1 (2022. 5. 30. 오전 4:52:37)
+[2022.05.29-10.52.37:316][710]LogPlayLevel: Creating play world package: /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-10.52.37:346][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029881s)
+[2022.05.29-10.52.37:347][710]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-10.52.37:347][710]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2022.05.29-10.52.37:347][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/_Stages/Stage1/Stage1.Stage1 to /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 (0.031077s)
+[2022.05.29-10.52.37:354][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.05.29-10.52.37:355][710]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.05.29-10.52.37:355][710]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-10.52.37:355][710]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-10.52.37:355][710]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-10.52.37:355][710]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-10.52.37:355][710]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-10.52.37:355][710]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-10.52.37:355][710]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-10.52.37:355][710]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-10.52.37:356][710]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-10.52.37:356][710]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-10.52.37:356][710]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-10.52.37:356][710]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-10.52.37:367][710]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-10.52.37:367][710]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-10.52.37:404][710]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.29-10.52.37:404][710]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-10.52.37:404][710]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-10.52.37:404][710]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-10.52.37:405][710]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-10.52.37:405][710]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-10.52.37:405][710]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-10.52.37:406][710]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-10.52.37:406][710]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-10.52.37:406][710]LogInit: FAudioDevice initialized.
+[2022.05.29-10.52.37:406][710]LogAudio: Display: Audio Device (ID: 5) registered with world 'Stage1'.
+[2022.05.29-10.52.37:458][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-10.52.37:458][710]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.29-10.52.37:474][710]LogWorld: Bringing World /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 up for play (max tick rate 0) at 2022.05.29-19.52.37
+[2022.05.29-10.52.37:475][710]LogWorld: Bringing up level for play took: 0.015586
+[2022.05.29-10.52.37:475][710]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2022.05.29-10.52.37:479][710]LogBlueprintUserMessages: [BP_CameraPath_2] false
+[2022.05.29-10.52.37:483][710]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01 1 1 1
+[2022.05.29-10.52.37:485][710]PIE: 서버가 로그인했습니다.
+[2022.05.29-10.52.37:486][710]PIE: 에디터에서 플레이 총 시작 시간 0.18초입니다.
+[2022.05.29-10.52.37:585][710]LogBlueprintUserMessages: [BP_CameraPath2_2] false
+[2022.05.29-10.52.37:585][710]LogBlueprintUserMessages: [BP_CameraPath3_5] false
+[2022.05.29-10.52.37:585][710]LogBlueprintUserMessages: [BP_CameraPath4_2] false
+[2022.05.29-10.52.37:591][711]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02 1 1 1
+[2022.05.29-10.52.37:659][711]LogBlueprintUserMessages: [BP_CameraPath5] false
+[2022.05.29-10.52.37:659][711]LogBlueprintUserMessages: [BP_CameraPath6] false
+[2022.05.29-10.52.37:659][711]LogBlueprintUserMessages: [BP_CameraPath7] false
+[2022.05.29-10.52.37:659][711]LogBlueprintUserMessages: [BP_CameraPath8] false
+[2022.05.29-10.52.37:672][712]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap03 1 1 1
+[2022.05.29-10.52.37:748][712]LogBlueprintUserMessages: [BP_CameraPath] false
+[2022.05.29-10.53.00:256][423]LogBlueprintUserMessages: [Glacier16] 
+[2022.05.29-10.53.04:340][838]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.29-10.53.06:036][  4]LogBlueprintUserMessages: [Glacier16] 
+[2022.05.29-10.53.10:944][498]LogBlueprintUserMessages: [Glacier16] 
+[2022.05.29-10.53.13:792][782]LogBlueprintUserMessages: [Glacier16] 
+[2022.05.29-10.53.16:737][ 80]LogBlueprintUserMessages: [Glacier17] 
+[2022.05.29-10.53.18:877][289]LogBlueprintUserMessages: [Glacier17] 
+[2022.05.29-10.53.20:938][490]LogBlueprintUserMessages: [Glacier17] 
+[2022.05.29-10.53.27:995][193]LogBlueprintUserMessages: [Glacier17] 
+[2022.05.29-10.53.30:674][472]LogBlueprintUserMessages: [Glacier18] 
+[2022.05.29-10.53.32:902][701]LogBlueprintUserMessages: [Glacier18] 
+[2022.05.29-10.53.34:995][908]LogBlueprintUserMessages: [Glacier18] 
+[2022.05.29-10.53.37:410][155]LogBlueprintUserMessages: [Glacier18] 
+[2022.05.29-10.53.40:138][435]LogBlueprintUserMessages: [Glacier18] 
+[2022.05.29-10.53.42:725][700]LogBlueprintUserMessages: [Glacier19] 
+[2022.05.29-10.53.43:015][730]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.29-10.53.44:065][838]LogBlueprintUserMessages: [Glacier19] 
+[2022.05.29-10.53.44:153][847]LogBlueprintUserMessages: [Glacier19] 
+[2022.05.29-10.53.44:162][848]LogBlueprintUserMessages: [Glacier19] 
+[2022.05.29-10.53.44:991][928]LogBlueprintUserMessages: [Glacier7] FloorGlacier318
+[2022.05.29-10.53.45:857][ 18]LogBlueprintUserMessages: [Glacier7] FloorGlacier318
+[2022.05.29-10.53.45:943][ 27]LogBlueprintUserMessages: [Glacier7] FloorGlacier318
+[2022.05.29-10.53.45:951][ 28]LogBlueprintUserMessages: [Glacier7] FloorGlacier318
+[2022.05.29-10.53.46:550][ 90]LogBlueprintUserMessages: [Glacier8] Glacier9
+[2022.05.29-10.53.47:167][155]LogBlueprintUserMessages: [Glacier8] Glacier9
+[2022.05.29-10.53.47:244][163]LogBlueprintUserMessages: [Glacier8] Glacier9
+[2022.05.29-10.53.47:263][165]LogBlueprintUserMessages: [Glacier8] Glacier9
+[2022.05.29-10.53.48:283][271]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.53.49:242][362]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.53.51:383][555]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.53.52:049][610]LogBlueprintUserMessages: [Glacier37] Glacier38
+[2022.05.29-10.53.53:344][730]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.53.53:988][790]LogBlueprintUserMessages: [Glacier9] Glacier8
+[2022.05.29-10.53.54:382][827]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.53.55:033][888]LogBlueprintUserMessages: [Glacier37] Glacier38
+[2022.05.29-10.53.55:338][916]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.53.56:589][ 34]LogBlueprintUserMessages: [Glacier43] Glacier44
+[2022.05.29-10.53.57:713][144]LogBlueprintUserMessages: [Glacier43] Glacier44
+[2022.05.29-10.53.57:796][152]LogBlueprintUserMessages: [Glacier43] Glacier44
+[2022.05.29-10.53.57:838][156]LogBlueprintUserMessages: [Glacier43] Glacier44
+[2022.05.29-10.53.59:239][286]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.54.01:310][488]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.54.02:166][574]LogBlueprintUserMessages: [Glacier44] FloorGlacier397
+[2022.05.29-10.54.03:318][689]LogBlueprintUserMessages: [Glacier44] FloorGlacier397
+[2022.05.29-10.54.03:401][697]LogBlueprintUserMessages: [Glacier44] FloorGlacier397
+[2022.05.29-10.54.03:412][698]LogBlueprintUserMessages: [Glacier44] FloorGlacier397
+[2022.05.29-10.54.04:011][754]LogBlueprintUserMessages: [Glacier38] Glacier32
+[2022.05.29-10.54.04:435][793]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.54.05:990][941]LogBlueprintUserMessages: [Glacier44] FloorGlacier397
+[2022.05.29-10.54.07:257][ 61]LogBlueprintUserMessages: [Glacier44] FloorGlacier397
+[2022.05.29-10.54.07:331][ 68]LogBlueprintUserMessages: [Glacier44] FloorGlacier397
+[2022.05.29-10.54.07:379][ 73]LogBlueprintUserMessages: [Glacier44] FloorGlacier397
+[2022.05.29-10.54.07:944][126]LogBlueprintUserMessages: [Glacier38] Glacier32
+[2022.05.29-10.54.08:785][204]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.54.10:276][343]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.54.19:443][233]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.29-10.54.24:681][757]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.29-10.54.36:761][958]LogBlueprintUserMessages: [Glacier46] 
+[2022.05.29-10.54.40:906][353]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.29-10.54.41:694][430]LogBlueprintUserMessages: [Glacier46] 
+[2022.05.29-10.54.42:596][518]LogBlueprintUserMessages: [Glacier46] 
+[2022.05.29-10.54.42:678][526]LogBlueprintUserMessages: [Glacier46] 
+[2022.05.29-10.54.42:688][527]LogBlueprintUserMessages: [Glacier46] 
+[2022.05.29-10.54.43:281][584]LogBlueprintUserMessages: [Glacier44] Glacier43
+[2022.05.29-10.54.43:573][612]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.29-10.54.44:082][661]LogBlueprintUserMessages: [Glacier44] Glacier43
+[2022.05.29-10.54.44:165][669]LogBlueprintUserMessages: [Glacier44] Glacier43
+[2022.05.29-10.54.45:050][751]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.54.46:016][840]LogBlueprintUserMessages: [Glacier45] FloorGlacier383
+[2022.05.29-10.54.46:894][924]LogBlueprintUserMessages: [Glacier45] FloorGlacier383
+[2022.05.29-10.54.46:978][932]LogBlueprintUserMessages: [Glacier45] FloorGlacier383
+[2022.05.29-10.54.47:591][988]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.54.47:911][ 17]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.54.48:303][ 53]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.29-10.54.48:845][103]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.54.49:946][204]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.54.51:036][303]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.54.51:111][310]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.54.51:154][314]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.54.52:071][400]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.54.53:033][490]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.55.24:126][922]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.55.24:520][959]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.29-10.55.25:224][ 25]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.55.25:406][ 42]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.55.26:413][136]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.55.26:486][143]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.55.26:497][144]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.55.26:529][147]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.55.27:451][235]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.55.28:544][338]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.55.29:718][448]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.55.30:974][565]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.55.31:058][573]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.55.31:079][575]LogBlueprintUserMessages: [Glacier38] Glacier37
+[2022.05.29-10.55.32:568][717]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.55.33:937][846]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.55.34:772][924]LogBlueprintUserMessages: [Glacier45] FloorGlacier383
+[2022.05.29-10.55.36:313][ 74]LogBlueprintUserMessages: [Glacier45] FloorGlacier383
+[2022.05.29-10.55.36:396][ 82]LogBlueprintUserMessages: [Glacier45] FloorGlacier383
+[2022.05.29-10.55.36:437][ 86]LogBlueprintUserMessages: [Glacier45] FloorGlacier383
+[2022.05.29-10.55.37:007][139]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.55.37:610][195]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.55.37:693][203]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.55.40:003][432]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.55.41:288][553]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.55.41:684][590]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.29-10.55.42:529][669]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.55.43:870][794]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.55.43:944][801]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.55.43:954][802]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.55.43:983][805]LogBlueprintUserMessages: [Glacier35] Glacier36
+[2022.05.29-10.55.45:831][988]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.55.47:279][133]LogBlueprintUserMessages: [Glacier11_2] 
+[2022.05.29-10.55.50:172][423]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.55.50:823][488]LogBlueprintUserMessages: [Glacier11_2] 
+[2022.05.29-10.55.53:309][734]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.55.55:279][932]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.55.57:156][121]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.55.57:802][187]LogBlueprintUserMessages: [Glacier14] 
+[2022.05.29-10.55.58:258][234]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.55.59:504][361]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.56.00:568][468]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Floor Exist
+[2022.05.29-10.56.41:364][792]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.56.42:866][936]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.56.44:299][ 74]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] No Floor!
+[2022.05.29-10.56.46:056][250]LogBlueprintUserMessages: [Glacier46] 
+[2022.05.29-10.56.47:262][373]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.29-10.56.57:922][463]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] 펭귄 머리 도리도리
+[2022.05.29-10.56.58:324][504]LogBlueprintUserMessages: [Glacier11_2] 
+[2022.05.29-10.57.00:753][751]LogBlueprintUserMessages: [Glacier11_2] 
+[2022.05.29-10.57.03:579][ 41]LogBlueprintUserMessages: [Glacier11_2] 
+[2022.05.29-10.57.06:376][329]LogBlueprintUserMessages: [Glacier12] 
+[2022.05.29-10.57.08:926][587]LogBlueprintUserMessages: [Glacier13] 
+[2022.05.29-10.57.11:286][823]LogBlueprintUserMessages: [Glacier14] 
+[2022.05.29-10.57.48:132][562]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier295)
+[2022.05.29-10.57.57:720][402]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier303)
+[2022.05.29-10.57.59:066][528]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (FloorGlacier455)
+[2022.05.29-10.57.59:395][558]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier407)
+[2022.05.29-10.58.00:229][635]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier295)
+[2022.05.29-10.58.09:079][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-10.58.09:079][451]LogWorld: BeginTearingDown for /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-10.58.09:079][451]LogSlate: Window 'Project_sung 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.05.29-10.58.09:104][451]LogWorld: UWorld::CleanupWorld for Stage1, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-10.58.09:106][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-10.58.09:111][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-10.58.09:114][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-10.58.09:122][451]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-10.58.09:123][451]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-10.58.09:139][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2022.05.29-10.58.09:162][452]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.05.29-10.58.09:168][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.05.29-10.58.20:018][653]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier295)
+[2022.05.29-10.58.24:892][118]Cmd: EDIT COPY
+[2022.05.29-10.58.25:192][147]Cmd: EDIT PASTE
+[2022.05.29-10.58.30:752][676]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier295)
+[2022.05.29-10.58.31:499][745]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier305)
+[2022.05.29-10.58.32:618][844]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier290)
+[2022.05.29-10.58.34:889][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.05.29-10.58.35:017][ 55]LogSavePackage: Moving '../../../../2022 리아/MY earth project/OurEarth/Project_sung/Saved/Submap029E1EC71B49A7454AC2B14C97390370A8.tmp' to '../../../../2022 리아/MY earth project/OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Submap02.umap'
+[2022.05.29-10.58.35:028][ 55]AssetCheck: New page: 에셋 저장:  Submap02
+[2022.05.29-10.58.35:029][ 55]LogContentValidation: Display: World /Game/Maps/_Stages/Stage1/Submap02.Submap02 유효성 검사 중
+[2022.05.29-10.59.15:587][944]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.05.29-10.59.15:601][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-10.59.15:601][944]PIE: New page: PIE 세션: Stage1 (2022. 5. 30. 오전 4:59:15)
+[2022.05.29-10.59.15:601][944]LogPlayLevel: Creating play world package: /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-10.59.15:636][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035612s)
+[2022.05.29-10.59.15:637][944]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-10.59.15:637][944]LogPlayLevel: PIE: World Init took: (0.001198s)
+[2022.05.29-10.59.15:637][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/_Stages/Stage1/Stage1.Stage1 to /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 (0.036977s)
+[2022.05.29-10.59.15:644][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.05.29-10.59.15:645][944]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.05.29-10.59.15:645][944]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-10.59.15:645][944]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-10.59.15:645][944]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-10.59.15:645][944]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-10.59.15:645][944]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-10.59.15:645][944]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-10.59.15:645][944]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-10.59.15:645][944]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-10.59.15:645][944]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-10.59.15:645][944]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-10.59.15:645][944]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-10.59.15:645][944]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-10.59.15:657][944]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-10.59.15:657][944]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-10.59.15:691][944]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.29-10.59.15:691][944]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-10.59.15:691][944]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-10.59.15:691][944]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-10.59.15:691][944]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-10.59.15:691][944]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-10.59.15:691][944]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-10.59.15:693][944]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-10.59.15:693][944]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-10.59.15:693][944]LogInit: FAudioDevice initialized.
+[2022.05.29-10.59.15:693][944]LogAudio: Display: Audio Device (ID: 6) registered with world 'Stage1'.
+[2022.05.29-10.59.15:752][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-10.59.15:752][944]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.29-10.59.15:766][944]LogWorld: Bringing World /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 up for play (max tick rate 0) at 2022.05.29-19.59.15
+[2022.05.29-10.59.15:766][944]LogWorld: Bringing up level for play took: 0.013222
+[2022.05.29-10.59.15:766][944]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2022.05.29-10.59.15:771][944]LogBlueprintUserMessages: [BP_CameraPath_2] false
+[2022.05.29-10.59.15:774][944]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01 1 1 1
+[2022.05.29-10.59.15:776][944]PIE: 서버가 로그인했습니다.
+[2022.05.29-10.59.15:777][944]PIE: 에디터에서 플레이 총 시작 시간 0.185초입니다.
+[2022.05.29-10.59.15:881][944]LogBlueprintUserMessages: [BP_CameraPath2_2] false
+[2022.05.29-10.59.15:882][944]LogBlueprintUserMessages: [BP_CameraPath3_5] false
+[2022.05.29-10.59.15:882][944]LogBlueprintUserMessages: [BP_CameraPath4_2] false
+[2022.05.29-10.59.15:890][945]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02 1 1 1
+[2022.05.29-10.59.15:942][945]LogBlueprintUserMessages: [BP_CameraPath5] false
+[2022.05.29-10.59.15:942][945]LogBlueprintUserMessages: [BP_CameraPath6] false
+[2022.05.29-10.59.15:942][945]LogBlueprintUserMessages: [BP_CameraPath7] false
+[2022.05.29-10.59.15:943][945]LogBlueprintUserMessages: [BP_CameraPath8] false
+[2022.05.29-10.59.15:962][946]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap03 1 1 1
+[2022.05.29-10.59.16:024][946]LogBlueprintUserMessages: [BP_CameraPath] false
+[2022.05.29-10.59.48:069][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-10.59.48:069][325]LogWorld: BeginTearingDown for /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-10.59.48:070][325]LogSlate: Window 'Project_sung 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.05.29-10.59.48:087][325]LogWorld: UWorld::CleanupWorld for Stage1, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-10.59.48:089][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-10.59.48:100][325]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-10.59.48:109][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-10.59.48:120][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-10.59.48:120][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-10.59.48:132][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.05.29-10.59.48:155][326]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.05.29-10.59.48:162][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.05.29-10.59.49:474][444]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier305)
+[2022.05.29-10.59.50:292][514]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier295)
+[2022.05.29-10.59.50:937][572]LogEditorViewport: Clicking on Actor (LMB): Glacier_C (Glacier11)
+[2022.05.29-10.59.52:076][676]LogEditorViewport: Clicking on Actor (LMB): Glacier_C (Glacier12)
+[2022.05.29-10.59.52:396][702]LogEditorViewport: Clicking on Actor (LMB): Glacier_C (Glacier13)
+[2022.05.29-10.59.52:561][716]LogEditorViewport: Clicking on Actor (LMB): Glacier_C (Glacier14)
+[2022.05.29-10.59.54:240][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.05.29-10.59.54:371][873]LogSavePackage: Moving '../../../../2022 리아/MY earth project/OurEarth/Project_sung/Saved/Submap0201AC0080468BD02B9F0F05966346F029.tmp' to '../../../../2022 리아/MY earth project/OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Submap02.umap'
+[2022.05.29-10.59.54:382][873]AssetCheck: New page: 에셋 저장:  Submap02
+[2022.05.29-10.59.54:382][873]LogContentValidation: Display: World /Game/Maps/_Stages/Stage1/Submap02.Submap02 유효성 검사 중
+[2022.05.29-10.59.55:973][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.05.29-10.59.56:104][ 22]LogSavePackage: Moving '../../../../2022 리아/MY earth project/OurEarth/Project_sung/Saved/Submap027FB1DC5C4997E25046C0B1B6129FB920.tmp' to '../../../../2022 리아/MY earth project/OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Submap02.umap'
+[2022.05.29-10.59.56:115][ 22]AssetCheck: New page: 에셋 저장:  Submap02
+[2022.05.29-10.59.56:115][ 22]LogContentValidation: Display: World /Game/Maps/_Stages/Stage1/Submap02.Submap02 유효성 검사 중
