@@ -1830,3 +1830,1314 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.29-07.55.11:689][495]AssetCheck: New page: Asset Save: multiple assets
 [2022.05.29-07.55.11:689][495]LogContentValidation: Display: Validating World /Game/Maps/OpAni/Temp_OpenAni.Temp_OpenAni
 [2022.05.29-07.55.11:690][495]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/OpAni/Temp_OpenAni_BuiltData.Temp_OpenAni_BuiltData
+[2022.05.29-07.56.22:459][899]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor1)
+[2022.05.29-07.57.06:295][419]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.29-07.57.06:310][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-07.57.06:310][419]PIE: New page: PIE session: Temp_OpenAni (2022. 5. 30. 오전 1:57:06)
+[2022.05.29-07.57.06:310][419]LogPlayLevel: Creating play world package: /Game/Maps/OpAni/UEDPIE_0_Temp_OpenAni
+[2022.05.29-07.57.06:316][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005788s)
+[2022.05.29-07.57.06:316][419]LogAIModule: Creating AISystem for world Temp_OpenAni
+[2022.05.29-07.57.06:317][419]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2022.05.29-07.57.06:317][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OpAni/Temp_OpenAni.Temp_OpenAni to /Game/Maps/OpAni/UEDPIE_0_Temp_OpenAni.Temp_OpenAni (0.006947s)
+[2022.05.29-07.57.06:328][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2022.05.29-07.57.06:330][419]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.05.29-07.57.06:330][419]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-07.57.06:330][419]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-07.57.06:330][419]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-07.57.06:330][419]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-07.57.06:330][419]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-07.57.06:330][419]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-07.57.06:330][419]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-07.57.06:330][419]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-07.57.06:330][419]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-07.57.06:330][419]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-07.57.06:330][419]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-07.57.06:330][419]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-07.57.06:442][419]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-07.57.06:442][419]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-07.57.06:517][419]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.29-07.57.06:517][419]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-07.57.06:517][419]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-07.57.06:517][419]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-07.57.06:518][419]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-07.57.06:518][419]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-07.57.06:518][419]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-07.57.06:519][419]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-07.57.06:519][419]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-07.57.06:519][419]LogInit: FAudioDevice initialized.
+[2022.05.29-07.57.06:519][419]LogAudio: Display: Audio Device (ID: 9) registered with world 'Temp_OpenAni'.
+[2022.05.29-07.57.06:573][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-07.57.06:574][419]LogLoad: Game class is 'LoadingGameMode_C'
+[2022.05.29-07.57.06:575][419]LogWorld: Bringing World /Game/Maps/OpAni/UEDPIE_0_Temp_OpenAni.Temp_OpenAni up for play (max tick rate 0) at 2022.05.29-16.57.06
+[2022.05.29-07.57.06:576][419]LogWorld: Bringing up level for play took: 0.001425
+[2022.05.29-07.57.06:576][419]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2022.05.29-07.57.06:580][419]LogLevel: Warning: DisableInput on a LevelScript actor can not be specified for only one PlayerController.  Disabling for all PlayerControllers.
+[2022.05.29-07.57.06:581][419]PIE: Server logged in
+[2022.05.29-07.57.06:583][419]PIE: Play in editor total start time 0.282 seconds.
+[2022.05.29-07.57.08:439][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-07.57.08:439][581]LogWorld: BeginTearingDown for /Game/Maps/OpAni/UEDPIE_0_Temp_OpenAni
+[2022.05.29-07.57.08:439][581]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.29-07.57.08:445][581]LogWorld: UWorld::CleanupWorld for Temp_OpenAni, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-07.57.08:445][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-07.57.08:452][581]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-07.57.08:499][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-07.57.08:509][581]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-07.57.08:510][581]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-07.57.08:517][581]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2022.05.29-07.57.08:548][582]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.05.29-07.57.59:477][696]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.29-07.57.59:490][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-07.57.59:490][696]PIE: New page: PIE session: Temp_OpenAni (2022. 5. 30. 오전 1:57:59)
+[2022.05.29-07.57.59:490][696]LogPlayLevel: Creating play world package: /Game/Maps/OpAni/UEDPIE_0_Temp_OpenAni
+[2022.05.29-07.57.59:496][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005851s)
+[2022.05.29-07.57.59:497][696]LogAIModule: Creating AISystem for world Temp_OpenAni
+[2022.05.29-07.57.59:497][696]LogPlayLevel: PIE: World Init took: (0.001092s)
+[2022.05.29-07.57.59:497][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OpAni/Temp_OpenAni.Temp_OpenAni to /Game/Maps/OpAni/UEDPIE_0_Temp_OpenAni.Temp_OpenAni (0.007091s)
+[2022.05.29-07.57.59:511][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2022.05.29-07.57.59:513][696]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.05.29-07.57.59:513][696]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-07.57.59:513][696]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-07.57.59:513][696]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-07.57.59:513][696]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-07.57.59:513][696]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-07.57.59:513][696]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-07.57.59:513][696]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-07.57.59:513][696]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-07.57.59:513][696]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-07.57.59:513][696]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-07.57.59:513][696]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-07.57.59:513][696]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-07.57.59:624][696]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-07.57.59:624][696]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-07.57.59:697][696]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.29-07.57.59:697][696]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-07.57.59:697][696]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-07.57.59:697][696]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-07.57.59:697][696]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-07.57.59:697][696]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-07.57.59:697][696]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-07.57.59:699][696]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-07.57.59:699][696]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-07.57.59:699][696]LogInit: FAudioDevice initialized.
+[2022.05.29-07.57.59:699][696]LogAudio: Display: Audio Device (ID: 10) registered with world 'Temp_OpenAni'.
+[2022.05.29-07.57.59:755][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-07.57.59:755][696]LogLoad: Game class is 'LoadingGameMode_C'
+[2022.05.29-07.57.59:757][696]LogWorld: Bringing World /Game/Maps/OpAni/UEDPIE_0_Temp_OpenAni.Temp_OpenAni up for play (max tick rate 0) at 2022.05.29-16.57.59
+[2022.05.29-07.57.59:757][696]LogWorld: Bringing up level for play took: 0.001412
+[2022.05.29-07.57.59:757][696]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2022.05.29-07.57.59:761][696]LogLevel: Warning: DisableInput on a LevelScript actor can not be specified for only one PlayerController.  Disabling for all PlayerControllers.
+[2022.05.29-07.57.59:763][696]PIE: Server logged in
+[2022.05.29-07.57.59:765][696]PIE: Play in editor total start time 0.282 seconds.
+[2022.05.29-07.58.04:482][194]LogNet: Browse: /Game/Maps/_Stages/Stage1/Stage1
+[2022.05.29-07.58.04:482][194]LogLoad: LoadMap: /Game/Maps/_Stages/Stage1/Stage1
+[2022.05.29-07.58.04:482][194]LogWorld: BeginTearingDown for /Game/Maps/OpAni/UEDPIE_0_Temp_OpenAni
+[2022.05.29-07.58.04:482][194]LogWorld: UWorld::CleanupWorld for Temp_OpenAni, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-07.58.04:482][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-07.58.04:532][194]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.29-07.58.04:535][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2022.05.29-07.58.04:582][194]LogAudio: Display: Audio Device (ID: 10) registered with world 'Stage1'.
+[2022.05.29-07.58.04:583][194]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-07.58.04:584][194]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.29-07.58.04:632][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-07.58.04:632][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-07.58.04:632][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-07.58.04:632][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-07.58.04:656][194]LogWorld: Bringing World /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 up for play (max tick rate 0) at 2022.05.29-16.58.04
+[2022.05.29-07.58.04:656][194]LogWorld: Bringing up level for play took: 0.071957
+[2022.05.29-07.58.04:660][194]LogBlueprintUserMessages: [BP_CameraPath_2] false
+[2022.05.29-07.58.04:661][194]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01 1 1 1
+[2022.05.29-07.58.04:661][194]LogLoad: Took 0.179483 seconds to LoadMap(/Game/Maps/_Stages/Stage1/Stage1)
+[2022.05.29-07.58.04:708][194]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01) is flushing async loading
+[2022.05.29-07.58.04:708][194]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.05.29-07.58.05:059][194]LogBlueprintUserMessages: [BP_CameraPath2_2] false
+[2022.05.29-07.58.05:059][194]LogBlueprintUserMessages: [BP_CameraPath3_5] false
+[2022.05.29-07.58.05:059][194]LogBlueprintUserMessages: [BP_CameraPath4_2] false
+[2022.05.29-07.58.05:074][195]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02 1 1 1
+[2022.05.29-07.58.05:075][195]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02) is flushing async loading
+[2022.05.29-07.58.05:075][195]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.05.29-07.58.05:503][195]LogBlueprintUserMessages: [BP_CameraPath5] false
+[2022.05.29-07.58.05:503][195]LogBlueprintUserMessages: [BP_CameraPath6] false
+[2022.05.29-07.58.05:503][195]LogBlueprintUserMessages: [BP_CameraPath7] false
+[2022.05.29-07.58.05:504][195]LogBlueprintUserMessages: [BP_CameraPath8] false
+[2022.05.29-07.58.05:551][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-07.58.05:551][195]LogWorld: BeginTearingDown for /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-07.58.05:551][195]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.29-07.58.05:571][195]LogWorld: UWorld::CleanupWorld for Stage1, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-07.58.05:573][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-07.58.05:583][195]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-07.58.05:637][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-07.58.05:652][195]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.29-07.58.05:654][195]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-07.58.05:655][195]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-07.58.05:666][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2022.05.29-07.58.05:807][196]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.05.29-07.58.05:818][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.05.29-07.58.07:085][291]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-07.58.07:091][291]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-07.58.12:475][680]LogEditorViewport: Clicking on Actor (LMB): LevelSequenceActor (Temp_OpenSeq)
+[2022.05.29-07.58.21:462][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/OpAni/Temp_OpenAni" FILE="../../../../OurEarth/Project_sung/Content/Maps/OpAni/Temp_OpenAni.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.29-07.58.21:474][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.05.29-07.58.21:527][325]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/Temp_OpenAniE846051940BB4122CCB7558BF5024A5B.tmp' to '../../../../OurEarth/Project_sung/Content/Maps/OpAni/Temp_OpenAni.umap'
+[2022.05.29-07.58.21:536][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/OpAni/Temp_OpenAni_BuiltData" FILE="../../../../OurEarth/Project_sung/Content/Maps/OpAni/Temp_OpenAni_BuiltData.uasset" SILENT=true
+[2022.05.29-07.58.21:559][325]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/Temp_OpenAni_BuiltData26BED263403AE259E0EB2DADC5AAB631.tmp' to '../../../../OurEarth/Project_sung/Content/Maps/OpAni/Temp_OpenAni_BuiltData.uasset'
+[2022.05.29-07.58.21:573][325]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.29-07.58.21:573][325]LogContentValidation: Display: Validating World /Game/Maps/OpAni/Temp_OpenAni.Temp_OpenAni
+[2022.05.29-07.58.21:574][325]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/OpAni/Temp_OpenAni_BuiltData.Temp_OpenAni_BuiltData
+[2022.05.29-07.58.24:767][609]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.29-07.58.24:779][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-07.58.24:779][609]PIE: New page: PIE session: Temp_OpenAni (2022. 5. 30. 오전 1:58:24)
+[2022.05.29-07.58.24:779][609]LogPlayLevel: Creating play world package: /Game/Maps/OpAni/UEDPIE_0_Temp_OpenAni
+[2022.05.29-07.58.24:785][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005818s)
+[2022.05.29-07.58.24:786][609]LogAIModule: Creating AISystem for world Temp_OpenAni
+[2022.05.29-07.58.24:786][609]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2022.05.29-07.58.24:786][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OpAni/Temp_OpenAni.Temp_OpenAni to /Game/Maps/OpAni/UEDPIE_0_Temp_OpenAni.Temp_OpenAni (0.006971s)
+[2022.05.29-07.58.24:796][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.05.29-07.58.24:796][609]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.05.29-07.58.24:797][609]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-07.58.24:797][609]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-07.58.24:797][609]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-07.58.24:797][609]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-07.58.24:797][609]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-07.58.24:797][609]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-07.58.24:797][609]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-07.58.24:797][609]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-07.58.24:797][609]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-07.58.24:797][609]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-07.58.24:797][609]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-07.58.24:797][609]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-07.58.24:910][609]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-07.58.24:910][609]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-07.58.24:983][609]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.29-07.58.24:983][609]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-07.58.24:983][609]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-07.58.24:983][609]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-07.58.24:983][609]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-07.58.24:984][609]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-07.58.24:984][609]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-07.58.24:985][609]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-07.58.24:985][609]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-07.58.24:985][609]LogInit: FAudioDevice initialized.
+[2022.05.29-07.58.24:985][609]LogAudio: Display: Audio Device (ID: 11) registered with world 'Temp_OpenAni'.
+[2022.05.29-07.58.25:032][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-07.58.25:032][609]LogLoad: Game class is 'LoadingGameMode_C'
+[2022.05.29-07.58.25:034][609]LogWorld: Bringing World /Game/Maps/OpAni/UEDPIE_0_Temp_OpenAni.Temp_OpenAni up for play (max tick rate 0) at 2022.05.29-16.58.25
+[2022.05.29-07.58.25:035][609]LogWorld: Bringing up level for play took: 0.001645
+[2022.05.29-07.58.25:035][609]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2022.05.29-07.58.25:039][609]LogLevel: Warning: DisableInput on a LevelScript actor can not be specified for only one PlayerController.  Disabling for all PlayerControllers.
+[2022.05.29-07.58.25:041][609]PIE: Server logged in
+[2022.05.29-07.58.25:043][609]PIE: Play in editor total start time 0.27 seconds.
+[2022.05.29-07.58.27:051][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-07.58.27:051][808]LogWorld: BeginTearingDown for /Game/Maps/OpAni/UEDPIE_0_Temp_OpenAni
+[2022.05.29-07.58.27:051][808]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.29-07.58.27:058][808]LogWorld: UWorld::CleanupWorld for Temp_OpenAni, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-07.58.27:058][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-07.58.27:066][808]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-07.58.27:080][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-07.58.27:089][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-07.58.27:091][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-07.58.27:096][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.05.29-07.58.27:125][809]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.05.29-07.58.45:065][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.05.29-07.58.46:176][832]LogSlate: Window 'Save Content' being destroyed
+[2022.05.29-07.58.46:273][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resource/mainmenu/word_Color_Start" FILE="../../../../OurEarth/Project_sung/Content/Resource/mainmenu/word_Color_Start.uasset" SILENT=true
+[2022.05.29-07.58.46:281][832]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/word_Color_StartCA5A6DAC4651CB678C37B985917B287B.tmp' to '../../../../OurEarth/Project_sung/Content/Resource/mainmenu/word_Color_Start.uasset'
+[2022.05.29-07.58.46:411][832]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/_Stages/Stage1/Stage1.Stage1
+[2022.05.29-07.58.46:411][832]Cmd: MAP LOAD FILE="../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.29-07.58.46:411][832]LightingResults: New page: Lighting Build
+[2022.05.29-07.58.46:411][832]LoadErrors: New page: Loading map: Stage1.umap
+[2022.05.29-07.58.46:415][832]LogWorld: UWorld::CleanupWorld for Temp_OpenAni, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-07.58.46:415][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-07.58.46:415][832]MapCheck: New page: Map Check
+[2022.05.29-07.58.46:415][832]LightingResults: New page: Lighting Build
+[2022.05.29-07.58.46:425][832]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.29-07.58.46:430][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.05.29-07.58.46:451][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.05.29-07.58.46:460][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.05.29-07.58.46:461][832]LogAudio: Display: Audio Device (ID: 1) registered with world 'Stage1'.
+[2022.05.29-07.58.46:549][832]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/_Stages/Stage1/Submap06) is flushing async loading
+[2022.05.29-07.58.46:549][832]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.05.29-07.58.46:557][832]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/_Stages/Stage1/Submap04) is flushing async loading
+[2022.05.29-07.58.46:566][832]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/_Stages/Stage1/Submap07) is flushing async loading
+[2022.05.29-07.58.46:574][832]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/_Stages/Stage1/Submap01) is flushing async loading
+[2022.05.29-07.58.46:944][832]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/_Stages/Stage1/Submap03) is flushing async loading
+[2022.05.29-07.58.47:341][832]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/_Stages/Stage1/Submap02) is flushing async loading
+[2022.05.29-07.58.47:784][832]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/_Stages/Stage1/Submap05) is flushing async loading
+[2022.05.29-07.58.47:792][832]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/_Stages/Stage1/Submap08) is flushing async loading
+[2022.05.29-07.58.47:826][832]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.29-07.58.47:826][832]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-07.58.47:866][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.05.29-07.58.47:876][832]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.29-07.58.47:896][832]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 19.97ms to complete.
+[2022.05.29-07.58.47:896][832]LogFileHelpers: Loading map 'Stage1' took 1.485
+[2022.05.29-07.58.47:928][832]AssetCheck: New page: Asset Save: word_Color_Start
+[2022.05.29-07.58.47:928][832]LogContentValidation: Display: Validating Material /Game/Resource/mainmenu/word_Color_Start.word_Color_Start
+[2022.05.29-08.02.35:559][587]LogEditorViewport: Clicking on Actor (context menu): DummyGlacier_C (DummyGlacier60)
+[2022.05.29-08.02.38:267][718]Cmd: TRANSACTION UNDO
+[2022.05.29-08.02.38:267][718]LogEditorTransaction: Undo Move Actors
+[2022.05.29-08.02.50:689][600]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.29-08.02.50:704][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-08.02.50:704][600]PIE: New page: PIE session: Stage1 (2022. 5. 30. 오전 2:02:50)
+[2022.05.29-08.02.50:704][600]LogPlayLevel: Creating play world package: /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.02.50:729][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025484s)
+[2022.05.29-08.02.50:730][600]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-08.02.50:731][600]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2022.05.29-08.02.50:731][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/_Stages/Stage1/Stage1.Stage1 to /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 (0.026820s)
+[2022.05.29-08.02.50:756][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.05.29-08.02.50:759][600]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.05.29-08.02.50:759][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-08.02.50:759][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-08.02.50:759][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-08.02.50:759][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-08.02.50:759][600]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-08.02.50:759][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-08.02.50:759][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-08.02.50:759][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-08.02.50:760][600]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-08.02.50:760][600]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-08.02.50:760][600]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-08.02.50:760][600]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-08.02.50:875][600]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-08.02.50:875][600]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-08.02.50:954][600]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.29-08.02.50:954][600]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-08.02.50:954][600]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-08.02.50:954][600]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-08.02.50:954][600]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-08.02.50:954][600]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-08.02.50:955][600]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-08.02.50:956][600]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-08.02.50:956][600]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-08.02.50:956][600]LogInit: FAudioDevice initialized.
+[2022.05.29-08.02.50:956][600]LogAudio: Display: Audio Device (ID: 12) registered with world 'Stage1'.
+[2022.05.29-08.02.51:004][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.02.51:004][600]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.29-08.02.51:013][600]LogWorld: Bringing World /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 up for play (max tick rate 0) at 2022.05.29-17.02.51
+[2022.05.29-08.02.51:014][600]LogWorld: Bringing up level for play took: 0.009080
+[2022.05.29-08.02.51:014][600]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.05.29-08.02.51:021][600]LogBlueprintUserMessages: [BP_CameraPath_2] false
+[2022.05.29-08.02.51:023][600]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01 1 1 1
+[2022.05.29-08.02.51:025][600]PIE: Server logged in
+[2022.05.29-08.02.51:027][600]PIE: Play in editor total start time 0.332 seconds.
+[2022.05.29-08.02.51:172][600]LogBlueprintUserMessages: [BP_CameraPath2_2] false
+[2022.05.29-08.02.51:172][600]LogBlueprintUserMessages: [BP_CameraPath3_5] false
+[2022.05.29-08.02.51:172][600]LogBlueprintUserMessages: [BP_CameraPath4_2] false
+[2022.05.29-08.02.51:182][601]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02 1 1 1
+[2022.05.29-08.02.51:260][601]LogBlueprintUserMessages: [BP_CameraPath5] false
+[2022.05.29-08.02.51:260][601]LogBlueprintUserMessages: [BP_CameraPath6] false
+[2022.05.29-08.02.51:260][601]LogBlueprintUserMessages: [BP_CameraPath7] false
+[2022.05.29-08.02.51:261][601]LogBlueprintUserMessages: [BP_CameraPath8] false
+[2022.05.29-08.02.51:281][602]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap03 1 1 1
+[2022.05.29-08.02.51:453][602]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.02.51:453][602]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.02.51:454][602]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.02.51:454][602]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.02.51:454][602]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.02.51:454][602]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.02.51:454][602]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.02.51:454][602]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.02.51:477][602]LogBlueprintUserMessages: [BP_CameraPath] false
+[2022.05.29-08.02.54:255][856]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.02.56:083][ 12]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.03.25:969][381]LogBlueprintUserMessages: [Glacier_5] 
+[2022.05.29-08.03.28:549][591]LogBlueprintUserMessages: [Glacier_5] 
+[2022.05.29-08.03.30:120][717]LogBlueprintUserMessages: [Glacier_5] Glacier2
+[2022.05.29-08.03.31:363][814]LogBlueprintUserMessages: [Glacier2_7] 
+[2022.05.29-08.03.34:649][ 74]LogBlueprintUserMessages: [Glacier3] 
+[2022.05.29-08.03.48:740][218]LogBlueprintUserMessages: [Glacier4] 
+[2022.05.29-08.03.50:633][373]LogBlueprintUserMessages: [Glacier5] 
+[2022.05.29-08.03.53:622][616]LogBlueprintUserMessages: [Glacier6_5] 
+[2022.05.29-08.03.55:419][770]LogBlueprintUserMessages: [Glacier7] 
+[2022.05.29-08.04.00:135][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.04.00:135][192]LogWorld: BeginTearingDown for /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.04.00:136][192]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.29-08.04.00:181][192]LogWorld: UWorld::CleanupWorld for Stage1, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-08.04.00:183][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.04.00:190][192]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-08.04.00:206][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.04.00:223][192]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.29-08.04.00:226][192]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.04.00:227][192]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.04.00:248][192]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.05.29-08.04.00:405][193]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.05.29-08.04.00:440][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.05.29-08.04.01:652][259]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.04.01:659][259]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.06.24:331][248]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.29-08.06.24:781][275]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight2)
+[2022.05.29-08.06.32:820][868]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2022.05.29-08.06.36:995][184]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.29-08.06.37:007][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-08.06.37:007][184]PIE: New page: PIE session: Stage1 (2022. 5. 30. 오전 2:06:37)
+[2022.05.29-08.06.37:007][184]LogPlayLevel: Creating play world package: /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.06.37:031][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023831s)
+[2022.05.29-08.06.37:032][184]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-08.06.37:033][184]LogPlayLevel: PIE: World Init took: (0.001558s)
+[2022.05.29-08.06.37:033][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/_Stages/Stage1/Stage1.Stage1 to /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 (0.025777s)
+[2022.05.29-08.06.37:045][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.05.29-08.06.37:049][184]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.05.29-08.06.37:049][184]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-08.06.37:049][184]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-08.06.37:049][184]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-08.06.37:049][184]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-08.06.37:049][184]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-08.06.37:049][184]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-08.06.37:049][184]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-08.06.37:049][184]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-08.06.37:049][184]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-08.06.37:049][184]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-08.06.37:049][184]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-08.06.37:049][184]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-08.06.37:169][184]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-08.06.37:169][184]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-08.06.37:251][184]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.29-08.06.37:251][184]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-08.06.37:251][184]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-08.06.37:251][184]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-08.06.37:251][184]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-08.06.37:251][184]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-08.06.37:252][184]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-08.06.37:253][184]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-08.06.37:253][184]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-08.06.37:253][184]LogInit: FAudioDevice initialized.
+[2022.05.29-08.06.37:253][184]LogAudio: Display: Audio Device (ID: 13) registered with world 'Stage1'.
+[2022.05.29-08.06.37:314][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.06.37:314][184]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.29-08.06.37:323][184]LogWorld: Bringing World /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 up for play (max tick rate 0) at 2022.05.29-17.06.37
+[2022.05.29-08.06.37:324][184]LogWorld: Bringing up level for play took: 0.008957
+[2022.05.29-08.06.37:324][184]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.05.29-08.06.37:331][184]LogBlueprintUserMessages: [BP_CameraPath_2] false
+[2022.05.29-08.06.37:332][184]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01 1 1 1
+[2022.05.29-08.06.37:335][184]PIE: Server logged in
+[2022.05.29-08.06.37:336][184]PIE: Play in editor total start time 0.337 seconds.
+[2022.05.29-08.06.37:478][184]LogBlueprintUserMessages: [BP_CameraPath2_2] false
+[2022.05.29-08.06.37:479][184]LogBlueprintUserMessages: [BP_CameraPath3_5] false
+[2022.05.29-08.06.37:479][184]LogBlueprintUserMessages: [BP_CameraPath4_2] false
+[2022.05.29-08.06.37:486][185]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02 1 1 1
+[2022.05.29-08.06.37:566][185]LogBlueprintUserMessages: [BP_CameraPath5] false
+[2022.05.29-08.06.37:566][185]LogBlueprintUserMessages: [BP_CameraPath6] false
+[2022.05.29-08.06.37:566][185]LogBlueprintUserMessages: [BP_CameraPath7] false
+[2022.05.29-08.06.37:567][185]LogBlueprintUserMessages: [BP_CameraPath8] false
+[2022.05.29-08.06.37:589][186]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap03 1 1 1
+[2022.05.29-08.06.37:752][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.06.37:752][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.06.37:752][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.06.37:752][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.06.37:752][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.06.37:752][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.06.37:753][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.06.37:753][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.06.37:777][186]LogBlueprintUserMessages: [BP_CameraPath] false
+[2022.05.29-08.06.44:456][800]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.06.46:417][969]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.06.48:190][109]LogBlueprintUserMessages: [Glacier26] FloorGlacier63
+[2022.05.29-08.06.49:461][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.06.49:462][205]LogWorld: BeginTearingDown for /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.06.49:463][205]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.29-08.06.49:496][205]LogWorld: UWorld::CleanupWorld for Stage1, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-08.06.49:497][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.06.49:508][205]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-08.06.49:521][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.06.49:542][205]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.06.49:543][205]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.06.49:565][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.05.29-08.06.49:714][206]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.05.29-08.06.49:729][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.05.29-08.06.51:052][290]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.06.51:058][290]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.07.05:384][317]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier49)
+[2022.05.29-08.10.07:077][361]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.05.29-08.10.07:306][361]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/Stage1_Auto1491AA4B84AE19D64F7320C8C95293192.tmp' to '../../../../OurEarth/Project_sung/Saved/Autosaves/Game/Maps/_Stages/Stage1/Stage1_Auto1.umap'
+[2022.05.29-08.10.07:360][361]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/_Stages/Stage1/Stage1' took 0.295
+[2022.05.29-08.10.07:360][361]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.295
+[2022.05.29-08.10.07:447][366]LogEditorViewport: Clicking on Actor (context menu): DummyGlacier_C (DummyGlacier78)
+[2022.05.29-08.10.15:769][966]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier79)
+[2022.05.29-08.10.16:779][ 40]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier112)
+[2022.05.29-08.10.17:925][125]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier114)
+[2022.05.29-08.10.22:623][508]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier115)
+[2022.05.29-08.10.24:299][641]Cmd: EDIT COPY
+[2022.05.29-08.10.24:624][667]Cmd: EDIT PASTE
+[2022.05.29-08.11.17:037][853]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.29-08.11.17:052][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-08.11.17:052][853]PIE: New page: PIE session: Stage1 (2022. 5. 30. 오전 2:11:17)
+[2022.05.29-08.11.17:052][853]LogPlayLevel: Creating play world package: /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.11.17:077][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024909s)
+[2022.05.29-08.11.17:078][853]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-08.11.17:079][853]LogPlayLevel: PIE: World Init took: (0.001306s)
+[2022.05.29-08.11.17:079][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/_Stages/Stage1/Stage1.Stage1 to /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 (0.026424s)
+[2022.05.29-08.11.17:095][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.05.29-08.11.17:098][853]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.05.29-08.11.17:098][853]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-08.11.17:098][853]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-08.11.17:098][853]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-08.11.17:098][853]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-08.11.17:098][853]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-08.11.17:098][853]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-08.11.17:098][853]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-08.11.17:098][853]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-08.11.17:099][853]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-08.11.17:099][853]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-08.11.17:099][853]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-08.11.17:099][853]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-08.11.17:219][853]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-08.11.17:219][853]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-08.11.17:300][853]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.29-08.11.17:301][853]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-08.11.17:301][853]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-08.11.17:301][853]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-08.11.17:301][853]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-08.11.17:301][853]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-08.11.17:301][853]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-08.11.17:303][853]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-08.11.17:303][853]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-08.11.17:303][853]LogInit: FAudioDevice initialized.
+[2022.05.29-08.11.17:303][853]LogAudio: Display: Audio Device (ID: 14) registered with world 'Stage1'.
+[2022.05.29-08.11.17:361][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.11.17:361][853]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.29-08.11.17:370][853]LogWorld: Bringing World /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 up for play (max tick rate 0) at 2022.05.29-17.11.17
+[2022.05.29-08.11.17:371][853]LogWorld: Bringing up level for play took: 0.009171
+[2022.05.29-08.11.17:371][853]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2022.05.29-08.11.17:378][853]LogBlueprintUserMessages: [BP_CameraPath_2] false
+[2022.05.29-08.11.17:380][853]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01 1 1 1
+[2022.05.29-08.11.17:382][853]PIE: Server logged in
+[2022.05.29-08.11.17:384][853]PIE: Play in editor total start time 0.34 seconds.
+[2022.05.29-08.11.17:539][853]LogBlueprintUserMessages: [BP_CameraPath2_2] false
+[2022.05.29-08.11.17:539][853]LogBlueprintUserMessages: [BP_CameraPath3_5] false
+[2022.05.29-08.11.17:539][853]LogBlueprintUserMessages: [BP_CameraPath4_2] false
+[2022.05.29-08.11.17:547][854]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02 1 1 1
+[2022.05.29-08.11.17:632][854]LogBlueprintUserMessages: [BP_CameraPath5] false
+[2022.05.29-08.11.17:632][854]LogBlueprintUserMessages: [BP_CameraPath6] false
+[2022.05.29-08.11.17:632][854]LogBlueprintUserMessages: [BP_CameraPath7] false
+[2022.05.29-08.11.17:633][854]LogBlueprintUserMessages: [BP_CameraPath8] false
+[2022.05.29-08.11.17:658][855]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap03 1 1 1
+[2022.05.29-08.11.17:833][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.11.17:833][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.11.17:833][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.11.17:833][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.11.17:833][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.11.17:833][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.11.17:833][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.11.17:834][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.11.17:859][855]LogBlueprintUserMessages: [BP_CameraPath] false
+[2022.05.29-08.11.22:656][262]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.11.24:616][433]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.11.27:823][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.11.27:823][681]LogWorld: BeginTearingDown for /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.11.27:824][681]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.29-08.11.27:872][681]LogWorld: UWorld::CleanupWorld for Stage1, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-08.11.27:874][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.11.27:885][681]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-08.11.27:898][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.11.27:917][681]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.29-08.11.27:918][681]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.11.27:919][681]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.11.27:939][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.05.29-08.11.28:092][682]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.05.29-08.11.28:117][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.05.29-08.11.29:416][771]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.11.29:425][771]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.11.42:354][731]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier125)
+[2022.05.29-08.11.42:992][779]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier124)
+[2022.05.29-08.11.43:376][808]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier122)
+[2022.05.29-08.11.49:499][296]Cmd: EDIT COPY
+[2022.05.29-08.11.50:426][360]Cmd: EDIT PASTE
+[2022.05.29-08.12.05:984][518]Cmd: EDIT COPY
+[2022.05.29-08.12.06:296][541]Cmd: EDIT PASTE
+[2022.05.29-08.12.16:255][281]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier257)
+[2022.05.29-08.12.16:946][330]Cmd: EDIT COPY
+[2022.05.29-08.12.17:200][350]Cmd: EDIT PASTE
+[2022.05.29-08.12.24:455][857]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier257)
+[2022.05.29-08.12.26:250][972]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier302)
+[2022.05.29-08.12.26:829][  9]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier257)
+[2022.05.29-08.12.28:012][ 85]Cmd: EDIT COPY
+[2022.05.29-08.12.28:273][102]Cmd: EDIT PASTE
+[2022.05.29-08.12.33:738][450]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.29-08.12.33:752][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-08.12.33:752][450]PIE: New page: PIE session: Stage1 (2022. 5. 30. 오전 2:12:33)
+[2022.05.29-08.12.33:752][450]LogPlayLevel: Creating play world package: /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.12.33:780][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027565s)
+[2022.05.29-08.12.33:781][450]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-08.12.33:782][450]LogPlayLevel: PIE: World Init took: (0.001557s)
+[2022.05.29-08.12.33:782][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/_Stages/Stage1/Stage1.Stage1 to /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 (0.029311s)
+[2022.05.29-08.12.33:801][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.05.29-08.12.33:804][450]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.05.29-08.12.33:805][450]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-08.12.33:805][450]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-08.12.33:805][450]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-08.12.33:805][450]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-08.12.33:805][450]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-08.12.33:805][450]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-08.12.33:805][450]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-08.12.33:805][450]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-08.12.33:805][450]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-08.12.33:805][450]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-08.12.33:805][450]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-08.12.33:805][450]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-08.12.33:924][450]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-08.12.33:924][450]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-08.12.34:004][450]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.29-08.12.34:005][450]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-08.12.34:005][450]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-08.12.34:005][450]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-08.12.34:005][450]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-08.12.34:005][450]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-08.12.34:005][450]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-08.12.34:007][450]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-08.12.34:007][450]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-08.12.34:007][450]LogInit: FAudioDevice initialized.
+[2022.05.29-08.12.34:007][450]LogAudio: Display: Audio Device (ID: 15) registered with world 'Stage1'.
+[2022.05.29-08.12.34:059][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.12.34:059][450]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.29-08.12.34:069][450]LogWorld: Bringing World /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 up for play (max tick rate 0) at 2022.05.29-17.12.34
+[2022.05.29-08.12.34:069][450]LogWorld: Bringing up level for play took: 0.009709
+[2022.05.29-08.12.34:069][450]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.05.29-08.12.34:077][450]LogBlueprintUserMessages: [BP_CameraPath_2] false
+[2022.05.29-08.12.34:079][450]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01 1 1 1
+[2022.05.29-08.12.34:081][450]PIE: Server logged in
+[2022.05.29-08.12.34:083][450]PIE: Play in editor total start time 0.339 seconds.
+[2022.05.29-08.12.34:235][450]LogBlueprintUserMessages: [BP_CameraPath2_2] false
+[2022.05.29-08.12.34:235][450]LogBlueprintUserMessages: [BP_CameraPath3_5] false
+[2022.05.29-08.12.34:235][450]LogBlueprintUserMessages: [BP_CameraPath4_2] false
+[2022.05.29-08.12.34:242][451]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02 1 1 1
+[2022.05.29-08.12.34:338][451]LogBlueprintUserMessages: [BP_CameraPath5] false
+[2022.05.29-08.12.34:339][451]LogBlueprintUserMessages: [BP_CameraPath6] false
+[2022.05.29-08.12.34:339][451]LogBlueprintUserMessages: [BP_CameraPath7] false
+[2022.05.29-08.12.34:339][451]LogBlueprintUserMessages: [BP_CameraPath8] false
+[2022.05.29-08.12.34:362][452]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap03 1 1 1
+[2022.05.29-08.12.34:545][452]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.12.34:546][452]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.12.34:546][452]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.12.34:546][452]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.12.34:546][452]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.12.34:546][452]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.12.34:546][452]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.12.34:546][452]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.12.34:572][452]LogBlueprintUserMessages: [BP_CameraPath] false
+[2022.05.29-08.12.38:176][763]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.12.40:249][936]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.13.05:196][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.13.05:196][833]LogWorld: BeginTearingDown for /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.13.05:197][833]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.29-08.13.05:242][833]LogWorld: UWorld::CleanupWorld for Stage1, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-08.13.05:244][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.13.05:255][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-08.13.05:268][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.13.05:285][833]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.29-08.13.05:288][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.13.05:289][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.13.05:319][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.05.29-08.13.05:465][834]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.05.29-08.13.05:483][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.05.29-08.13.06:671][895]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.13.06:681][895]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.13.17:534][627]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier84)
+[2022.05.29-08.13.18:185][659]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier78)
+[2022.05.29-08.13.18:487][681]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier80)
+[2022.05.29-08.13.19:552][760]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier76)
+[2022.05.29-08.13.20:271][813]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier80)
+[2022.05.29-08.13.20:766][849]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier86)
+[2022.05.29-08.13.21:700][920]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier85)
+[2022.05.29-08.13.23:218][ 37]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier81)
+[2022.05.29-08.13.23:568][ 62]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier79)
+[2022.05.29-08.13.25:615][202]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier83)
+[2022.05.29-08.13.26:095][238]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier77)
+[2022.05.29-08.13.26:536][270]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier75)
+[2022.05.29-08.13.30:914][569]Cmd: EDIT COPY
+[2022.05.29-08.13.32:210][646]Cmd: EDIT PASTE
+[2022.05.29-08.13.53:841][ 80]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier87)
+[2022.05.29-08.13.54:271][105]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier91)
+[2022.05.29-08.13.55:065][167]Cmd: DELETE
+[2022.05.29-08.13.55:065][167]Cmd: ACTOR DELETE
+[2022.05.29-08.13.55:110][167]LogEditorActor: Deleted Actor: DummyGlacier_C
+[2022.05.29-08.13.55:136][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.05.29-08.13.55:138][167]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2022.05.29-08.13.55:908][232]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier96)
+[2022.05.29-08.13.56:405][270]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier94)
+[2022.05.29-08.13.56:632][286]Cmd: DELETE
+[2022.05.29-08.13.56:632][286]Cmd: ACTOR DELETE
+[2022.05.29-08.13.56:647][286]LogEditorActor: Deleted Actor: DummyGlacier_C
+[2022.05.29-08.13.56:659][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.05.29-08.13.56:660][286]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2022.05.29-08.13.57:072][320]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier96)
+[2022.05.29-08.13.57:664][365]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier89)
+[2022.05.29-08.13.58:288][413]Cmd: EDIT COPY
+[2022.05.29-08.13.58:525][429]Cmd: EDIT PASTE
+[2022.05.29-08.14.05:951][927]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier146)
+[2022.05.29-08.14.07:283][998]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier72)
+[2022.05.29-08.14.07:716][ 26]Cmd: EDIT COPY
+[2022.05.29-08.14.07:913][ 37]Cmd: EDIT PASTE
+[2022.05.29-08.14.12:620][353]Cmd: EDIT COPY
+[2022.05.29-08.14.12:829][360]Cmd: EDIT PASTE
+[2022.05.29-08.14.18:082][712]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.29-08.14.18:099][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-08.14.18:099][712]PIE: New page: PIE session: Stage1 (2022. 5. 30. 오전 2:14:18)
+[2022.05.29-08.14.18:099][712]LogPlayLevel: Creating play world package: /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.14.18:126][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026636s)
+[2022.05.29-08.14.18:126][712]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-08.14.18:127][712]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2022.05.29-08.14.18:127][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/_Stages/Stage1/Stage1.Stage1 to /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 (0.027994s)
+[2022.05.29-08.14.18:141][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.05.29-08.14.18:144][712]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.05.29-08.14.18:144][712]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-08.14.18:144][712]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-08.14.18:144][712]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-08.14.18:144][712]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-08.14.18:144][712]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-08.14.18:144][712]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-08.14.18:144][712]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-08.14.18:144][712]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-08.14.18:145][712]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-08.14.18:145][712]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-08.14.18:145][712]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-08.14.18:145][712]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-08.14.18:265][712]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-08.14.18:265][712]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-08.14.18:356][712]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.29-08.14.18:356][712]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-08.14.18:356][712]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-08.14.18:356][712]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-08.14.18:357][712]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-08.14.18:357][712]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-08.14.18:357][712]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-08.14.18:358][712]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-08.14.18:358][712]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-08.14.18:358][712]LogInit: FAudioDevice initialized.
+[2022.05.29-08.14.18:358][712]LogAudio: Display: Audio Device (ID: 16) registered with world 'Stage1'.
+[2022.05.29-08.14.18:395][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.14.18:395][712]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.29-08.14.18:406][712]LogWorld: Bringing World /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 up for play (max tick rate 0) at 2022.05.29-17.14.18
+[2022.05.29-08.14.18:407][712]LogWorld: Bringing up level for play took: 0.011132
+[2022.05.29-08.14.18:407][712]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.05.29-08.14.18:413][712]LogBlueprintUserMessages: [BP_CameraPath_2] false
+[2022.05.29-08.14.18:416][712]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01 1 1 1
+[2022.05.29-08.14.18:418][712]PIE: Server logged in
+[2022.05.29-08.14.18:420][712]PIE: Play in editor total start time 0.331 seconds.
+[2022.05.29-08.14.18:560][712]LogBlueprintUserMessages: [BP_CameraPath2_2] false
+[2022.05.29-08.14.18:560][712]LogBlueprintUserMessages: [BP_CameraPath3_5] false
+[2022.05.29-08.14.18:560][712]LogBlueprintUserMessages: [BP_CameraPath4_2] false
+[2022.05.29-08.14.18:569][713]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02 1 1 1
+[2022.05.29-08.14.18:658][713]LogBlueprintUserMessages: [BP_CameraPath5] false
+[2022.05.29-08.14.18:658][713]LogBlueprintUserMessages: [BP_CameraPath6] false
+[2022.05.29-08.14.18:658][713]LogBlueprintUserMessages: [BP_CameraPath7] false
+[2022.05.29-08.14.18:659][713]LogBlueprintUserMessages: [BP_CameraPath8] false
+[2022.05.29-08.14.18:675][714]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap03 1 1 1
+[2022.05.29-08.14.18:859][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.14.18:859][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.14.18:859][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.14.18:859][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.14.18:859][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.14.18:859][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.14.18:859][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.14.18:859][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.14.18:884][714]LogBlueprintUserMessages: [BP_CameraPath] false
+[2022.05.29-08.14.21:206][921]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.14.24:096][160]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.14.29:649][578]LogBlueprintUserMessages: [Glacier_5] 
+[2022.05.29-08.14.31:924][740]LogBlueprintUserMessages: [Glacier_5] 
+[2022.05.29-08.14.34:946][967]LogBlueprintUserMessages: [Glacier2_7] 
+[2022.05.29-08.14.38:546][242]LogBlueprintUserMessages: [Glacier3] 
+[2022.05.29-08.14.49:961][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.14.49:961][ 95]LogWorld: BeginTearingDown for /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.14.49:962][ 95]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.29-08.14.50:009][ 95]LogWorld: UWorld::CleanupWorld for Stage1, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-08.14.50:011][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.14.50:023][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-08.14.50:038][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.14.50:059][ 95]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.29-08.14.50:059][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.14.50:060][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.14.50:087][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.05.29-08.14.50:243][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.05.29-08.14.50:258][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.05.29-08.14.51:230][155]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.14.51:242][155]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.15.08:078][900]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier147)
+[2022.05.29-08.15.08:494][928]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier148)
+[2022.05.29-08.15.08:860][955]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier152)
+[2022.05.29-08.15.09:195][979]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier296)
+[2022.05.29-08.15.09:497][  1]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier257)
+[2022.05.29-08.15.09:844][ 26]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier153)
+[2022.05.29-08.15.10:321][ 63]Cmd: EDIT COPY
+[2022.05.29-08.15.14:911][408]Cmd: EDIT COPY
+[2022.05.29-08.15.15:607][463]Cmd: EDIT PASTE
+[2022.05.29-08.15.26:203][225]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier320)
+[2022.05.29-08.15.28:011][322]Cmd: EDIT COPY
+[2022.05.29-08.15.28:209][337]Cmd: EDIT PASTE
+[2022.05.29-08.15.39:769][167]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier327)
+[2022.05.29-08.15.40:276][189]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier328)
+[2022.05.29-08.15.40:684][216]Cmd: EDIT COPY
+[2022.05.29-08.15.40:879][227]Cmd: EDIT PASTE
+[2022.05.29-08.15.53:897][110]Cmd: EDIT COPY
+[2022.05.29-08.15.54:252][138]Cmd: EDIT PASTE
+[2022.05.29-08.15.58:315][451]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier331)
+[2022.05.29-08.15.58:776][483]Cmd: EDIT COPY
+[2022.05.29-08.15.58:973][497]Cmd: EDIT PASTE
+[2022.05.29-08.16.20:547][ 27]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier96)
+[2022.05.29-08.16.24:234][278]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier90)
+[2022.05.29-08.16.27:310][502]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier93)
+[2022.05.29-08.16.27:823][549]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier88)
+[2022.05.29-08.16.28:179][579]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier82)
+[2022.05.29-08.16.28:529][603]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier90)
+[2022.05.29-08.16.28:817][627]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier92)
+[2022.05.29-08.16.29:093][650]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier95)
+[2022.05.29-08.16.33:232][944]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier96)
+[2022.05.29-08.16.33:585][967]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier87)
+[2022.05.29-08.16.35:348][ 68]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier89)
+[2022.05.29-08.16.36:521][143]Cmd: EDIT COPY
+[2022.05.29-08.16.42:176][526]Cmd: EDIT COPY
+[2022.05.29-08.16.42:827][569]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.29-08.16.43:782][630]Cmd: EDIT PASTE
+[2022.05.29-08.16.57:755][543]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier102)
+[2022.05.29-08.16.58:521][590]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier98)
+[2022.05.29-08.16.59:089][632]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier94)
+[2022.05.29-08.16.59:463][651]Cmd: EDIT COPY
+[2022.05.29-08.16.59:655][660]Cmd: EDIT PASTE
+[2022.05.29-08.17.18:391][951]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.29-08.17.18:410][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-08.17.18:410][951]PIE: New page: PIE session: Stage1 (2022. 5. 30. 오전 2:17:18)
+[2022.05.29-08.17.18:410][951]LogPlayLevel: Creating play world package: /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.17.18:442][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031510s)
+[2022.05.29-08.17.18:443][951]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-08.17.18:444][951]LogPlayLevel: PIE: World Init took: (0.001664s)
+[2022.05.29-08.17.18:444][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/_Stages/Stage1/Stage1.Stage1 to /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 (0.033394s)
+[2022.05.29-08.17.18:486][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.05.29-08.17.18:489][951]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.05.29-08.17.18:489][951]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-08.17.18:489][951]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-08.17.18:489][951]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-08.17.18:489][951]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-08.17.18:489][951]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-08.17.18:489][951]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-08.17.18:489][951]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-08.17.18:489][951]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-08.17.18:490][951]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-08.17.18:490][951]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-08.17.18:490][951]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-08.17.18:490][951]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-08.17.18:606][951]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-08.17.18:607][951]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-08.17.18:691][951]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.29-08.17.18:691][951]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-08.17.18:691][951]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-08.17.18:691][951]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-08.17.18:692][951]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-08.17.18:692][951]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-08.17.18:692][951]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-08.17.18:693][951]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-08.17.18:693][951]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-08.17.18:693][951]LogInit: FAudioDevice initialized.
+[2022.05.29-08.17.18:693][951]LogAudio: Display: Audio Device (ID: 17) registered with world 'Stage1'.
+[2022.05.29-08.17.18:747][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.17.18:747][951]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.29-08.17.18:758][951]LogWorld: Bringing World /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 up for play (max tick rate 0) at 2022.05.29-17.17.18
+[2022.05.29-08.17.18:759][951]LogWorld: Bringing up level for play took: 0.011529
+[2022.05.29-08.17.18:759][951]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2022.05.29-08.17.18:766][951]LogBlueprintUserMessages: [BP_CameraPath_2] false
+[2022.05.29-08.17.18:768][951]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01 1 1 1
+[2022.05.29-08.17.18:770][951]PIE: Server logged in
+[2022.05.29-08.17.18:773][951]PIE: Play in editor total start time 0.371 seconds.
+[2022.05.29-08.17.18:921][951]LogBlueprintUserMessages: [BP_CameraPath2_2] false
+[2022.05.29-08.17.18:921][951]LogBlueprintUserMessages: [BP_CameraPath3_5] false
+[2022.05.29-08.17.18:922][951]LogBlueprintUserMessages: [BP_CameraPath4_2] false
+[2022.05.29-08.17.18:929][952]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02 1 1 1
+[2022.05.29-08.17.19:022][952]LogBlueprintUserMessages: [BP_CameraPath5] false
+[2022.05.29-08.17.19:022][952]LogBlueprintUserMessages: [BP_CameraPath6] false
+[2022.05.29-08.17.19:022][952]LogBlueprintUserMessages: [BP_CameraPath7] false
+[2022.05.29-08.17.19:022][952]LogBlueprintUserMessages: [BP_CameraPath8] false
+[2022.05.29-08.17.19:042][953]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap03 1 1 1
+[2022.05.29-08.17.19:208][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.17.19:208][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.17.19:208][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.17.19:208][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.17.19:208][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.17.19:208][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.17.19:209][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.17.19:209][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.17.19:232][953]LogBlueprintUserMessages: [BP_CameraPath] false
+[2022.05.29-08.17.21:807][174]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.17.23:472][310]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.17.29:495][752]LogBlueprintUserMessages: [Glacier_5] 
+[2022.05.29-08.17.31:632][909]LogBlueprintUserMessages: [Glacier_5] 
+[2022.05.29-08.17.33:204][ 13]LogBlueprintUserMessages: [Glacier_5] FloorGlacier90
+[2022.05.29-08.17.34:417][104]LogBlueprintUserMessages: [Glacier2_7] 
+[2022.05.29-08.17.36:265][241]LogBlueprintUserMessages: [Glacier2_7] FloorGlacier78
+[2022.05.29-08.17.36:289][243]LogBlueprintUserMessages: [Glacier2_7] FloorGlacier78
+[2022.05.29-08.17.37:509][330]LogBlueprintUserMessages: [Glacier3] 
+[2022.05.29-08.17.39:039][443]LogBlueprintUserMessages: [Glacier3] FloorGlacier81
+[2022.05.29-08.17.41:058][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.17.41:058][591]LogWorld: BeginTearingDown for /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.17.41:059][591]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.29-08.17.41:112][591]LogWorld: UWorld::CleanupWorld for Stage1, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-08.17.41:115][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.17.41:123][591]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-08.17.41:139][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.17.41:154][591]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.29-08.17.41:160][591]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.17.41:162][591]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.17.41:188][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.05.29-08.17.41:325][592]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.05.29-08.17.41:340][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.05.29-08.17.42:579][661]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.17.42:592][661]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.17.53:919][526]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier102)
+[2022.05.29-08.17.54:709][597]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier107)
+[2022.05.29-08.17.54:985][618]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier106)
+[2022.05.29-08.17.55:480][663]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier105)
+[2022.05.29-08.17.55:839][694]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier94)
+[2022.05.29-08.17.56:102][709]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier98)
+[2022.05.29-08.17.56:357][730]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier103)
+[2022.05.29-08.17.56:645][753]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier101)
+[2022.05.29-08.17.57:135][789]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier100)
+[2022.05.29-08.17.57:735][843]Cmd: EDIT COPY
+[2022.05.29-08.18.03:568][272]Cmd: EDIT COPY
+[2022.05.29-08.18.03:948][289]Cmd: EDIT PASTE
+[2022.05.29-08.18.12:319][803]Cmd: EDIT COPY
+[2022.05.29-08.18.12:565][819]Cmd: EDIT PASTE
+[2022.05.29-08.18.22:429][510]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier113)
+[2022.05.29-08.18.23:015][543]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier112)
+[2022.05.29-08.18.23:361][566]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier116)
+[2022.05.29-08.18.24:004][610]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier115)
+[2022.05.29-08.18.24:331][631]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier109)
+[2022.05.29-08.18.24:777][656]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier111)
+[2022.05.29-08.18.25:238][686]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier110)
+[2022.05.29-08.18.25:770][721]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier108)
+[2022.05.29-08.18.26:344][760]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier114)
+[2022.05.29-08.18.31:826][ 80]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier122)
+[2022.05.29-08.18.32:667][137]Cmd: DELETE
+[2022.05.29-08.18.32:668][137]Cmd: ACTOR DELETE
+[2022.05.29-08.18.32:688][137]LogEditorActor: Deleted Actor: DummyGlacier_C
+[2022.05.29-08.18.32:716][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.05.29-08.18.32:720][137]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2022.05.29-08.18.35:528][318]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier114)
+[2022.05.29-08.18.36:171][361]Cmd: DELETE
+[2022.05.29-08.18.36:171][361]Cmd: ACTOR DELETE
+[2022.05.29-08.18.36:189][361]LogEditorActor: Deleted Actor: DummyGlacier_C
+[2022.05.29-08.18.36:200][361]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.05.29-08.18.36:202][361]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2022.05.29-08.18.42:352][767]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier112)
+[2022.05.29-08.18.44:368][889]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier116)
+[2022.05.29-08.18.45:227][947]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier117)
+[2022.05.29-08.18.46:318][ 23]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier116)
+[2022.05.29-08.18.47:159][ 81]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier123)
+[2022.05.29-08.18.47:896][132]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier116)
+[2022.05.29-08.18.51:121][353]Cmd: EDIT COPY
+[2022.05.29-08.18.51:330][367]Cmd: EDIT PASTE
+[2022.05.29-08.18.58:065][819]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier108)
+[2022.05.29-08.18.58:400][841]Cmd: EDIT COPY
+[2022.05.29-08.18.58:594][854]Cmd: EDIT PASTE
+[2022.05.29-08.19.02:793][136]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier118)
+[2022.05.29-08.19.03:669][195]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier124)
+[2022.05.29-08.19.04:038][217]Cmd: EDIT COPY
+[2022.05.29-08.19.04:224][230]Cmd: EDIT PASTE
+[2022.05.29-08.19.11:179][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/_Stages/Stage1/Stage1" FILE="../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.29-08.19.11:192][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.05.29-08.19.11:500][714]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/Stage19D872A3D400D1743D8A2F990BF2F6882.tmp' to '../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap'
+[2022.05.29-08.19.11:544][714]AssetCheck: New page: Asset Save: Stage1
+[2022.05.29-08.19.11:544][714]LogContentValidation: Display: Validating World /Game/Maps/_Stages/Stage1/Stage1.Stage1
+[2022.05.29-08.19.21:159][341]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier323)
+[2022.05.29-08.19.21:563][367]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier326)
+[2022.05.29-08.19.21:881][388]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.29-08.19.22:415][423]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier327)
+[2022.05.29-08.19.22:936][457]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier322)
+[2022.05.29-08.19.23:644][507]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier321)
+[2022.05.29-08.19.24:048][534]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier320)
+[2022.05.29-08.19.24:762][583]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier328)
+[2022.05.29-08.19.25:473][630]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier329)
+[2022.05.29-08.19.28:024][814]Cmd: EDIT COPY
+[2022.05.29-08.19.29:603][890]Cmd: EDIT PASTE
+[2022.05.29-08.19.32:843][ 57]Cmd: TRANSACTION UNDO
+[2022.05.29-08.19.32:843][ 57]LogEditorTransaction: Undo Move Actors
+[2022.05.29-08.19.36:159][215]Cmd: TRANSACTION UNDO
+[2022.05.29-08.19.36:159][215]LogEditorTransaction: Undo Paste
+[2022.05.29-08.19.39:119][388]Cmd: EDIT COPY
+[2022.05.29-08.19.39:761][426]Cmd: EDIT PASTE
+[2022.05.29-08.19.49:736][ 49]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier336)
+[2022.05.29-08.19.50:610][112]Cmd: DELETE
+[2022.05.29-08.19.50:610][112]Cmd: ACTOR DELETE
+[2022.05.29-08.19.50:641][112]LogEditorActor: Deleted Actor: FloorGlacier_C
+[2022.05.29-08.19.50:666][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.05.29-08.19.50:670][112]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2022.05.29-08.20.04:415][112]Cmd: DELETE
+[2022.05.29-08.20.04:415][112]Cmd: ACTOR DELETE
+[2022.05.29-08.20.04:432][112]LogEditorActor: Deleted Actor: BP_GoodSky_C
+[2022.05.29-08.20.04:444][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.05.29-08.20.04:446][112]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2022.05.29-08.20.05:825][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/_Stages/Stage1/Stage1" FILE="../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.29-08.20.05:837][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.05.29-08.20.06:141][199]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/Stage1C22A93C7472BE402BEE43AA34EF3D2D7.tmp' to '../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap'
+[2022.05.29-08.20.06:168][199]AssetCheck: New page: Asset Save: Stage1
+[2022.05.29-08.20.06:168][199]LogContentValidation: Display: Validating World /Game/Maps/_Stages/Stage1/Stage1.Stage1
+[2022.05.29-08.20.16:808][ 19]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier108)
+[2022.05.29-08.20.17:085][ 44]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier110)
+[2022.05.29-08.20.17:386][ 71]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier111)
+[2022.05.29-08.20.17:725][102]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier109)
+[2022.05.29-08.20.18:080][136]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier115)
+[2022.05.29-08.20.18:391][154]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier116)
+[2022.05.29-08.20.18:716][184]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier112)
+[2022.05.29-08.20.19:127][224]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier113)
+[2022.05.29-08.20.19:469][252]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier119)
+[2022.05.29-08.20.19:778][276]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier117)
+[2022.05.29-08.20.20:049][300]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier123)
+[2022.05.29-08.20.20:319][324]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier124)
+[2022.05.29-08.20.20:559][345]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier118)
+[2022.05.29-08.20.20:857][372]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier120)
+[2022.05.29-08.20.21:103][394]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier121)
+[2022.05.29-08.20.21:398][422]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier125)
+[2022.05.29-08.20.22:200][499]Cmd: EDIT COPY
+[2022.05.29-08.20.27:769][931]Cmd: EDIT PASTE
+[2022.05.29-08.20.30:164][ 77]Cmd: TRANSACTION UNDO
+[2022.05.29-08.20.30:164][ 77]LogEditorTransaction: Undo Move Actors
+[2022.05.29-08.20.37:030][495]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier140)
+[2022.05.29-08.20.39:114][636]Cmd: EDIT COPY
+[2022.05.29-08.20.39:376][655]Cmd: EDIT PASTE
+[2022.05.29-08.20.46:181][145]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier145)
+[2022.05.29-08.20.47:263][213]Cmd: DELETE
+[2022.05.29-08.20.47:263][213]Cmd: ACTOR DELETE
+[2022.05.29-08.20.47:286][213]LogEditorActor: Deleted Actor: DummyGlacier_C
+[2022.05.29-08.20.47:308][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.05.29-08.20.47:312][213]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2022.05.29-08.20.49:667][372]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier138)
+[2022.05.29-08.20.52:872][570]Cmd: EDIT COPY
+[2022.05.29-08.20.53:136][588]Cmd: EDIT PASTE
+[2022.05.29-08.20.59:685][ 36]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier151)
+[2022.05.29-08.21.00:418][ 78]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier150)
+[2022.05.29-08.21.01:095][128]Cmd: EDIT COPY
+[2022.05.29-08.21.01:293][143]Cmd: EDIT PASTE
+[2022.05.29-08.21.01:620][160]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier153)
+[2022.05.29-08.21.02:391][217]Cmd: TRANSACTION UNDO
+[2022.05.29-08.21.02:391][217]LogEditorTransaction: Undo Clicking on Actors
+[2022.05.29-08.21.02:752][225]Cmd: TRANSACTION UNDO
+[2022.05.29-08.21.02:752][225]LogEditorTransaction: Undo Paste
+[2022.05.29-08.21.04:466][337]Cmd: TRANSACTION UNDO
+[2022.05.29-08.21.04:466][337]LogEditorTransaction: Undo Move Actors
+[2022.05.29-08.21.04:791][356]Cmd: EDIT COPY
+[2022.05.29-08.21.04:988][370]Cmd: EDIT PASTE
+[2022.05.29-08.21.10:866][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/_Stages/Stage1/Stage1" FILE="../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.29-08.21.10:883][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.05.29-08.21.11:225][789]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/Stage14AF26AC248F297DD3AA3D68E6E8A2AD7.tmp' to '../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap'
+[2022.05.29-08.21.11:252][789]AssetCheck: New page: Asset Save: Stage1
+[2022.05.29-08.21.11:252][789]LogContentValidation: Display: Validating World /Game/Maps/_Stages/Stage1/Stage1.Stage1
+[2022.05.29-08.21.14:296][976]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.29-08.21.14:312][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-08.21.14:312][976]PIE: New page: PIE session: Stage1 (2022. 5. 30. 오전 2:21:14)
+[2022.05.29-08.21.14:313][976]LogPlayLevel: Creating play world package: /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.21.14:348][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035795s)
+[2022.05.29-08.21.14:350][976]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-08.21.14:350][976]LogPlayLevel: PIE: World Init took: (0.001353s)
+[2022.05.29-08.21.14:350][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/_Stages/Stage1/Stage1.Stage1 to /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 (0.037458s)
+[2022.05.29-08.21.14:364][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2022.05.29-08.21.14:365][976]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.05.29-08.21.14:365][976]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-08.21.14:365][976]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-08.21.14:365][976]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-08.21.14:365][976]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-08.21.14:365][976]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-08.21.14:365][976]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-08.21.14:365][976]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-08.21.14:365][976]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-08.21.14:366][976]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-08.21.14:366][976]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-08.21.14:366][976]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-08.21.14:366][976]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-08.21.14:484][976]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-08.21.14:484][976]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-08.21.14:578][976]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.29-08.21.14:579][976]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-08.21.14:579][976]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-08.21.14:579][976]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-08.21.14:579][976]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-08.21.14:579][976]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-08.21.14:579][976]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-08.21.14:580][976]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-08.21.14:580][976]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-08.21.14:580][976]LogInit: FAudioDevice initialized.
+[2022.05.29-08.21.14:580][976]LogAudio: Display: Audio Device (ID: 18) registered with world 'Stage1'.
+[2022.05.29-08.21.14:630][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.21.14:630][976]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.29-08.21.14:644][976]LogWorld: Bringing World /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 up for play (max tick rate 0) at 2022.05.29-17.21.14
+[2022.05.29-08.21.14:644][976]LogWorld: Bringing up level for play took: 0.013695
+[2022.05.29-08.21.14:645][976]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.05.29-08.21.14:651][976]LogBlueprintUserMessages: [BP_CameraPath_2] false
+[2022.05.29-08.21.14:655][976]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01 1 1 1
+[2022.05.29-08.21.14:657][976]PIE: Server logged in
+[2022.05.29-08.21.14:659][976]PIE: Play in editor total start time 0.356 seconds.
+[2022.05.29-08.21.14:818][976]LogBlueprintUserMessages: [BP_CameraPath2_2] false
+[2022.05.29-08.21.14:818][976]LogBlueprintUserMessages: [BP_CameraPath3_5] false
+[2022.05.29-08.21.14:818][976]LogBlueprintUserMessages: [BP_CameraPath4_2] false
+[2022.05.29-08.21.14:826][977]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02 1 1 1
+[2022.05.29-08.21.14:920][977]LogBlueprintUserMessages: [BP_CameraPath5] false
+[2022.05.29-08.21.14:921][977]LogBlueprintUserMessages: [BP_CameraPath6] false
+[2022.05.29-08.21.14:921][977]LogBlueprintUserMessages: [BP_CameraPath7] false
+[2022.05.29-08.21.14:921][977]LogBlueprintUserMessages: [BP_CameraPath8] false
+[2022.05.29-08.21.14:936][978]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap03 1 1 1
+[2022.05.29-08.21.15:119][978]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.21.15:119][978]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.21.15:119][978]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.21.15:119][978]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.21.15:119][978]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.21.15:119][978]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.21.15:120][978]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.21.15:120][978]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.21.15:143][978]LogBlueprintUserMessages: [BP_CameraPath] false
+[2022.05.29-08.21.18:275][247]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.21.20:713][438]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.21.28:585][  3]LogBlueprintUserMessages: [Glacier_5] 
+[2022.05.29-08.21.30:459][140]LogBlueprintUserMessages: [Glacier_5] 
+[2022.05.29-08.21.34:370][421]LogBlueprintUserMessages: [Glacier2_7] 
+[2022.05.29-08.21.37:436][640]LogBlueprintUserMessages: [Glacier3] 
+[2022.05.29-08.21.44:438][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.21.44:438][153]LogWorld: BeginTearingDown for /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.21.44:439][153]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.29-08.21.44:487][153]LogWorld: UWorld::CleanupWorld for Stage1, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-08.21.44:490][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.21.44:499][153]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-08.21.44:514][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.21.44:534][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.21.44:536][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.21.44:555][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.05.29-08.21.44:706][154]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.05.29-08.21.44:722][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.05.29-08.21.45:881][218]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.21.45:894][218]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.21.54:769][825]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier153)
+[2022.05.29-08.21.55:150][847]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier147)
+[2022.05.29-08.21.55:416][869]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier148)
+[2022.05.29-08.21.55:903][912]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier257)
+[2022.05.29-08.21.56:153][932]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier302)
+[2022.05.29-08.21.56:491][964]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier296)
+[2022.05.29-08.21.56:772][988]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier152)
+[2022.05.29-08.21.57:144][ 21]Cmd: EDIT COPY
+[2022.05.29-08.22.00:766][278]Cmd: EDIT COPY
+[2022.05.29-08.22.00:985][287]Cmd: EDIT PASTE
+[2022.05.29-08.22.01:792][326]Cmd: TRANSACTION UNDO
+[2022.05.29-08.22.01:792][326]LogEditorTransaction: Undo Paste
+[2022.05.29-08.22.05:167][473]Cmd: EDIT COPY
+[2022.05.29-08.22.05:385][486]Cmd: EDIT PASTE
+[2022.05.29-08.22.19:208][349]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier344)
+[2022.05.29-08.22.19:695][372]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier336)
+[2022.05.29-08.22.20:409][424]Cmd: DELETE
+[2022.05.29-08.22.20:409][424]Cmd: ACTOR DELETE
+[2022.05.29-08.22.20:431][424]LogEditorActor: Deleted Actor: FloorGlacier_C
+[2022.05.29-08.22.20:449][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.05.29-08.22.20:452][424]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2022.05.29-08.22.21:249][485]LogEditorViewport: Clicking on Actor (LMB): FloorGlacier_C (FloorGlacier344)
+[2022.05.29-08.22.21:782][523]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier346)
+[2022.05.29-08.22.22:943][608]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier345)
+[2022.05.29-08.22.23:356][636]Cmd: EDIT COPY
+[2022.05.29-08.22.23:543][648]Cmd: EDIT PASTE
+[2022.05.29-08.22.29:166][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/_Stages/Stage1/Stage1" FILE="../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.29-08.22.29:180][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.05.29-08.22.29:533][ 33]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/Stage17DD77EA844B67D17D02F418CD29A6ACB.tmp' to '../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap'
+[2022.05.29-08.22.29:577][ 33]AssetCheck: New page: Asset Save: Stage1
+[2022.05.29-08.22.29:577][ 33]LogContentValidation: Display: Validating World /Game/Maps/_Stages/Stage1/Stage1.Stage1
+[2022.05.29-08.22.29:937][ 56]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2022.05.29-08.24.09:729][482]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier100)
+[2022.05.29-08.24.10:066][512]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier101)
+[2022.05.29-08.24.10:524][556]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier103)
+[2022.05.29-08.24.10:898][589]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier102)
+[2022.05.29-08.24.11:226][619]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier98)
+[2022.05.29-08.24.11:552][649]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier94)
+[2022.05.29-08.24.11:868][678]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier105)
+[2022.05.29-08.24.12:172][704]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier106)
+[2022.05.29-08.24.12:489][731]LogEditorViewport: Clicking on Actor (CTRL LMB): DummyGlacier_C (DummyGlacier107)
+[2022.05.29-08.24.12:857][759]Cmd: EDIT COPY
+[2022.05.29-08.24.19:304][228]Cmd: EDIT COPY
+[2022.05.29-08.24.19:601][245]Cmd: EDIT PASTE
+[2022.05.29-08.24.27:708][744]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier158)
+[2022.05.29-08.24.28:202][779]LogEditorViewport: Clicking on Actor (LMB): DummyGlacier_C (DummyGlacier156)
+[2022.05.29-08.24.31:598][ 25]Cmd: EDIT COPY
+[2022.05.29-08.24.31:780][ 36]Cmd: EDIT PASTE
+[2022.05.29-08.24.51:095][445]Cmd: DELETE
+[2022.05.29-08.24.51:095][445]Cmd: ACTOR DELETE
+[2022.05.29-08.24.51:122][445]LogEditorActor: Deleted Actor: BP_GoodSky_C
+[2022.05.29-08.24.51:147][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.05.29-08.24.51:150][445]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2022.05.29-08.24.51:876][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/_Stages/Stage1/Stage1" FILE="../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.29-08.24.51:887][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.05.29-08.24.52:236][493]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/Stage1F612A9C04C286B651542B0AFCA54AC37.tmp' to '../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap'
+[2022.05.29-08.24.52:262][493]AssetCheck: New page: Asset Save: Stage1
+[2022.05.29-08.24.52:262][493]LogContentValidation: Display: Validating World /Game/Maps/_Stages/Stage1/Stage1.Stage1
+[2022.05.29-08.25.23:406][507]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.29-08.25.23:422][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-08.25.23:422][507]PIE: New page: PIE session: Stage1 (2022. 5. 30. 오전 2:25:23)
+[2022.05.29-08.25.23:422][507]LogPlayLevel: Creating play world package: /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.25.23:459][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036833s)
+[2022.05.29-08.25.23:460][507]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-08.25.23:461][507]LogPlayLevel: PIE: World Init took: (0.001385s)
+[2022.05.29-08.25.23:461][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/_Stages/Stage1/Stage1.Stage1 to /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 (0.038425s)
+[2022.05.29-08.25.23:477][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.05.29-08.25.23:479][507]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.05.29-08.25.23:479][507]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-08.25.23:479][507]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-08.25.23:479][507]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-08.25.23:479][507]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-08.25.23:479][507]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-08.25.23:479][507]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-08.25.23:479][507]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-08.25.23:479][507]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-08.25.23:480][507]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-08.25.23:480][507]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-08.25.23:480][507]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-08.25.23:480][507]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-08.25.23:597][507]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-08.25.23:597][507]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-08.25.23:679][507]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.29-08.25.23:680][507]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-08.25.23:680][507]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-08.25.23:680][507]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-08.25.23:680][507]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-08.25.23:680][507]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-08.25.23:680][507]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-08.25.23:682][507]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-08.25.23:682][507]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-08.25.23:682][507]LogInit: FAudioDevice initialized.
+[2022.05.29-08.25.23:682][507]LogAudio: Display: Audio Device (ID: 19) registered with world 'Stage1'.
+[2022.05.29-08.25.23:730][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.25.23:730][507]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.29-08.25.23:745][507]LogWorld: Bringing World /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 up for play (max tick rate 0) at 2022.05.29-17.25.23
+[2022.05.29-08.25.23:746][507]LogWorld: Bringing up level for play took: 0.015159
+[2022.05.29-08.25.23:746][507]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.05.29-08.25.23:753][507]LogBlueprintUserMessages: [BP_CameraPath_2] false
+[2022.05.29-08.25.23:758][507]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01 1 1 1
+[2022.05.29-08.25.23:760][507]PIE: Server logged in
+[2022.05.29-08.25.23:762][507]PIE: Play in editor total start time 0.349 seconds.
+[2022.05.29-08.25.23:923][507]LogBlueprintUserMessages: [BP_CameraPath2_2] false
+[2022.05.29-08.25.23:923][507]LogBlueprintUserMessages: [BP_CameraPath3_5] false
+[2022.05.29-08.25.23:923][507]LogBlueprintUserMessages: [BP_CameraPath4_2] false
+[2022.05.29-08.25.23:931][508]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02 1 1 1
+[2022.05.29-08.25.24:028][508]LogBlueprintUserMessages: [BP_CameraPath5] false
+[2022.05.29-08.25.24:028][508]LogBlueprintUserMessages: [BP_CameraPath6] false
+[2022.05.29-08.25.24:029][508]LogBlueprintUserMessages: [BP_CameraPath7] false
+[2022.05.29-08.25.24:029][508]LogBlueprintUserMessages: [BP_CameraPath8] false
+[2022.05.29-08.25.24:046][509]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap03 1 1 1
+[2022.05.29-08.25.24:229][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.25.24:230][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.25.24:230][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.25.24:230][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.25.24:230][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.25.24:230][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.25.24:230][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.25.24:230][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.25.24:256][509]LogBlueprintUserMessages: [BP_CameraPath] false
+[2022.05.29-08.25.27:766][802]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.25.30:035][982]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.25.33:357][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.25.33:357][213]LogWorld: BeginTearingDown for /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.25.33:359][213]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.29-08.25.33:407][213]LogWorld: UWorld::CleanupWorld for Stage1, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-08.25.33:410][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.25.33:419][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-08.25.33:423][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.25.33:454][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.25.33:455][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.25.33:477][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.05.29-08.25.33:592][214]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.05.29-08.25.33:610][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.05.29-08.25.34:926][285]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.25.34:939][285]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.25.39:296][587]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier147)
+[2022.05.29-08.25.39:510][599]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier153)
+[2022.05.29-08.25.39:886][622]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier257)
+[2022.05.29-08.25.40:236][643]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier148)
+[2022.05.29-08.25.40:489][657]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier152)
+[2022.05.29-08.25.40:787][675]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier296)
+[2022.05.29-08.25.41:116][695]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier302)
+[2022.05.29-08.25.44:058][913]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier316)
+[2022.05.29-08.25.44:404][929]LogEditorViewport: Clicking on Actor (CTRL LMB): FloorGlacier_C (FloorGlacier306)
+[2022.05.29-08.26.01:399][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/_Stages/Stage1/Stage1" FILE="../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.29-08.26.01:421][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.05.29-08.26.01:798][955]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/Stage10DAF5CA64709224B2AB16180D04874A8.tmp' to '../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap'
+[2022.05.29-08.26.01:841][955]AssetCheck: New page: Asset Save: Stage1
+[2022.05.29-08.26.01:841][955]LogContentValidation: Display: Validating World /Game/Maps/_Stages/Stage1/Stage1.Stage1
+[2022.05.29-08.26.04:359][113]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.29-08.26.04:374][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.29-08.26.04:374][113]PIE: New page: PIE session: Stage1 (2022. 5. 30. 오전 2:26:04)
+[2022.05.29-08.26.04:374][113]LogPlayLevel: Creating play world package: /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.26.04:413][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039122s)
+[2022.05.29-08.26.04:414][113]LogAIModule: Creating AISystem for world Stage1
+[2022.05.29-08.26.04:415][113]LogPlayLevel: PIE: World Init took: (0.001506s)
+[2022.05.29-08.26.04:415][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/_Stages/Stage1/Stage1.Stage1 to /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 (0.040887s)
+[2022.05.29-08.26.04:427][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.05.29-08.26.04:429][113]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.05.29-08.26.04:429][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.29-08.26.04:429][113]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.29-08.26.04:429][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.29-08.26.04:429][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.29-08.26.04:429][113]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.29-08.26.04:429][113]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.29-08.26.04:429][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.29-08.26.04:429][113]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.29-08.26.04:430][113]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.29-08.26.04:430][113]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.29-08.26.04:430][113]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.29-08.26.04:430][113]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.29-08.26.04:547][113]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.29-08.26.04:547][113]LogAudioMixer: Display: 1: FrontRight
+[2022.05.29-08.26.04:628][113]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2022.05.29-08.26.04:628][113]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.29-08.26.04:628][113]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.29-08.26.04:628][113]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.29-08.26.04:629][113]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.29-08.26.04:629][113]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.29-08.26.04:629][113]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.29-08.26.04:630][113]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.29-08.26.04:630][113]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.29-08.26.04:630][113]LogInit: FAudioDevice initialized.
+[2022.05.29-08.26.04:630][113]LogAudio: Display: Audio Device (ID: 20) registered with world 'Stage1'.
+[2022.05.29-08.26.04:664][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.26.04:664][113]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.29-08.26.04:680][113]LogWorld: Bringing World /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1.Stage1 up for play (max tick rate 0) at 2022.05.29-17.26.04
+[2022.05.29-08.26.04:680][113]LogWorld: Bringing up level for play took: 0.015191
+[2022.05.29-08.26.04:680][113]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.05.29-08.26.04:687][113]LogBlueprintUserMessages: [BP_CameraPath_2] false
+[2022.05.29-08.26.04:691][113]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap01 1 1 1
+[2022.05.29-08.26.04:693][113]PIE: Server logged in
+[2022.05.29-08.26.04:695][113]PIE: Play in editor total start time 0.329 seconds.
+[2022.05.29-08.26.04:852][113]LogBlueprintUserMessages: [BP_CameraPath2_2] false
+[2022.05.29-08.26.04:853][113]LogBlueprintUserMessages: [BP_CameraPath3_5] false
+[2022.05.29-08.26.04:853][113]LogBlueprintUserMessages: [BP_CameraPath4_2] false
+[2022.05.29-08.26.04:860][114]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap02 1 1 1
+[2022.05.29-08.26.04:958][114]LogBlueprintUserMessages: [BP_CameraPath5] false
+[2022.05.29-08.26.04:958][114]LogBlueprintUserMessages: [BP_CameraPath6] false
+[2022.05.29-08.26.04:959][114]LogBlueprintUserMessages: [BP_CameraPath7] false
+[2022.05.29-08.26.04:959][114]LogBlueprintUserMessages: [BP_CameraPath8] false
+[2022.05.29-08.26.04:977][115]LogLevel: ActivateLevel /Game/Maps/_Stages/Stage1/UEDPIE_0_Submap03 1 1 1
+[2022.05.29-08.26.05:163][115]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.26.05:163][115]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.26.05:163][115]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.26.05:164][115]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.26.05:164][115]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.26.05:164][115]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.26.05:164][115]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.26.05:164][115]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  Wind_Update_Info Function:  Wind Update Info Graph:  Wind_Update_Info Node:  Set Vector Parameter
+[2022.05.29-08.26.05:189][115]LogBlueprintUserMessages: [BP_CameraPath] false
+[2022.05.29-08.26.09:021][430]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.26.11:174][599]LogBlueprintUserMessages: [Glacier26] 
+[2022.05.29-08.26.17:715][ 69]LogBlueprintUserMessages: [Glacier_5] 
+[2022.05.29-08.26.20:219][245]LogBlueprintUserMessages: [Glacier_5] 
+[2022.05.29-08.26.23:379][475]LogBlueprintUserMessages: [Glacier2_7] 
+[2022.05.29-08.26.36:493][421]LogBlueprintUserMessages: [Glacier3] 
+[2022.05.29-08.26.58:995][ 50]LogBlueprintUserMessages: [Glacier4] 
+[2022.05.29-08.27.01:575][227]LogBlueprintUserMessages: [Glacier5] 
+[2022.05.29-08.27.05:306][492]LogBlueprintUserMessages: [Glacier6_5] 
+[2022.05.29-08.27.07:724][673]LogBlueprintUserMessages: [Glacier7] 
+[2022.05.29-08.27.09:825][838]LogBlueprintUserMessages: [Glacier7] 
+[2022.05.29-08.27.31:903][429]LogBlueprintUserMessages: [Glacier9] 
+[2022.05.29-08.27.32:833][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.29-08.27.32:833][494]LogWorld: BeginTearingDown for /Game/Maps/_Stages/Stage1/UEDPIE_0_Stage1
+[2022.05.29-08.27.32:834][494]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.29-08.27.32:884][494]LogWorld: UWorld::CleanupWorld for Stage1, bSessionEnded=true, bCleanupResources=true
+[2022.05.29-08.27.32:887][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.27.32:895][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.29-08.27.32:909][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.29-08.27.32:928][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.27.32:930][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.29-08.27.32:969][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.05.29-08.27.33:144][495]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.05.29-08.27.33:160][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.05.29-08.27.34:201][535]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.27.34:214][535]LogSlate: Window 'Message Log' being destroyed
+[2022.05.29-08.27.35:213][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/_Stages/Stage1/Stage1" FILE="../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.29-08.27.35:223][585]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.05.29-08.27.35:590][585]LogSavePackage: Moving '../../../../OurEarth/Project_sung/Saved/Stage14BED49174DD0711E6C86A48EF5BA24EF.tmp' to '../../../../OurEarth/Project_sung/Content/Maps/_Stages/Stage1/Stage1.umap'
+[2022.05.29-08.27.35:620][585]AssetCheck: New page: Asset Save: Stage1
+[2022.05.29-08.27.35:620][585]LogContentValidation: Display: Validating World /Game/Maps/_Stages/Stage1/Stage1.Stage1
