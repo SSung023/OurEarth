@@ -16,4 +16,9 @@
 ##### 🕹 조작 시 유의 사항
 1. 조작키를 누를 때에는 한 번에 한 키씩 눌러주세요!  
 2. 도착(깃발) 지점에 도착했을 때에는 Alt+ F4로 게임을 종료해주세요!
-
+  
+<br>
+ 
+### MyEarth 게임을 직접 플레이해보고 싶다면?
+##### 밑의 링크에서 다운받아서 플레이🕹 해보실 수 있습니다! 
+https://drive.google.com/file/d/1xR4ZsJCNt8R6e9Cc40eintp1a7NVApeT/view?usp=sharing
