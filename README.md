@@ -18,7 +18,17 @@
 2. 도착(깃발) 지점에 도착했을 때에는 Alt+ F4로 게임을 종료해주세요!
   
 <br>
- 
+
+### Team. 지구인  
+> ##### 기획✒                    : 김리아, 전하은  
+>##### 프로그래머💻               : 성희연, 김다은  
+>##### 3D 모델링 / 애니메이션🤸‍♂️    : 전하은  
+>##### 3D Voxel 그래픽🧱          : 김리아, 문소희  
+>##### Lighting / Postprocess✨  : 문소희  
+>##### Sound🎧                   : 한상민  
+
+<br>
+
 ### MyEarth 게임을 직접 플레이해보고 싶다면?
 ##### 밑의 링크에서 다운받아서 플레이🕹 해보실 수 있습니다! 
 https://drive.google.com/file/d/1xR4ZsJCNt8R6e9Cc40eintp1a7NVApeT/view?usp=sharing
