@@ -45,4 +45,4 @@
 
 ### MyEarth 게임을 직접 플레이해보고 싶다면?
 ##### 밑의 링크에서 다운받아서 플레이🕹 해보실 수 있습니다! 
-https://drive.google.com/file/d/1xR4ZsJCNt8R6e9Cc40eintp1a7NVApeT/view?usp=sharing
+https://drive.google.com/file/d/1ER96fPxwY9v6Is6d3Iu9QmTuU9GBaVvy/view?usp=sharing
